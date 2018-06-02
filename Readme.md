@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Арсен Барегамян](https://up.htmlacademy.ru/htmlcss/21/user/491841).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
