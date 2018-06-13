@@ -5,8 +5,200 @@
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <a class="main-header-logo" href="#"> 
+         <img src="logo.png" alt="Logo" width="" hight=""> 
+      </a>
+      <nav class="navigation-header">
+        <section class="search">
+          <input type="text" placeholder="Поиск по сайту">
+        </section>
+        <!--Вход для юзера START-->
+        <ul class="navigation-user">
+          <li>
+            <a href="#">Войти</a>
+          </li>
+        </ul>
+        <!--Вход для юзера END-->
+        <!--Сравнить START-->
+        <ul class="navigation-compare">
+          <li>
+            <a href="#">Сравнить</a>
+          </li>
+        </ul>
+        <!--Сравнить END-->
+        <!--Корзина START-->
+        <ul class="navigation-basket">
+          <li>
+            <a href="#">Корзина</a>
+          </li>
+        </ul>
+        <!--Корзина END-->
+        <ul class="navigation-menu">
+          <li class="navigator-menu-item">
+            <a class="catalog" href="#">КАТАЛОГ ТОВАРОВ</a>
+          </li>
+          <!--Выпадающее меню START-->
+            <ul class="dropdown-menu-list-first">
+              <li class="dropdown-menu-item">
+                <a href="#">Виртуальная реальность</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#">Моноподы для селфи</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#">Экшн-камеры</a>
+              </li>
+              <ul class="dropdown-menu-list-secound">
+                <li class="dropdown-menu-item">
+                  <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#">Умные часы</a>
+                </li>
+              </ul>
+              <ul class="dropdown-menu-list-third">
+                <li class="dropdown-menu-item">
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+              </ul>
+            </ul>
+          <!--Выпадающее меню END-->
+          <li class="navigator-menu-item">
+            <a class="delivery" href="#">ДОСТАВКА</a>
+          </li>
+          <li class="navigator-menu-item">
+            <a class="guarantee" href="#">ГАРАНТИЯ</a>
+          </li>
+          <li class="navigator-menu-item">
+            <a class="contacts" href="#">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Первый слайдер-->
+      <section class="slider-catalog">
+        <ul class="slider-catalog-list">
+          <!--Селфи палка слайд START-->
+          <li class="slider-catalog-selfi">
+            <h1 class="visually hidden">Самая длинная палка для селфи</h1>
+            <b>Делай селфи,как Бен Стиллер</b>
+            <p class="slider-catalog-selfi-description">Самая длинная палка для селфи доступна в нашем магазине.<br>
+              Восемь (Восемь, Карл!) метров длинной и весом всего 5 кг.
+            </p> 
+            <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
+            <table class="slider-catalog-specification-selfi">
+              <tr>
+                <td>8,5 м</td>
+                <td>5 кг</td>
+                <td>Карбон</td>
+              </tr>
+              <tr>
+                <th>Длинна палки</th>
+                <th>Вес палки</th>
+                <th>Материал</th>
+              </tr>
+            </table>
+          </li>
+          <!--Селфи палка слайд END-->
+          <!--Умные браслеты слайд START-->
+           <li class="slider-catalog-smart">
+            <h1 class="visually hidden">Мотивирующие фитнес-браслеты</h1>
+            <b>Худеем правильно</b>
+            <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+            </p> 
+            <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
+            <table class="slider-catalog-specification-smart">
+              <tr>
+                <td>48 часов</td>
+              </tr>
+              <tr>
+                <th>Без подзарядки</th>
+              </tr>
+            </table>
+          </li>
+          <!--Умные браслеты слайд END-->
+           <li class="slider-catalog-smart">
+            <h1 class="visually hidden">Мотивирующие фитнес-браслеты</h1>
+            <b>Худеем правильно</b>
+            <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+            </p> 
+            <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
+            <table class="slider-catalog-specification-smart">
+              <tr>
+                <td>48 часов</td>
+              </tr>
+              <tr>
+                <th>Без подзарядки</th>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </section>
+      <nav class="navigation-catalog">
+        <ul class="navigation-catalog-list">
+          <li class="navigation-catalig-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Виртуальная реальность" width="" height="">
+              <h2>Виртуальная реальность</h2>
+            </a>
+          </li>
+          <li class="navigation-catalog-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Моноподы для селфи" width="" height="">
+              <h2>Моноподы для селфи</h2>
+            </a>
+          </li>
+          <li class="navigation-catalig-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Экшн-камеры" width="" height="">
+              <h2>Экшн-камеры</h2>
+            </a>
+          </li>
+          <li class="navigation-catalig-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Фитнес-браслеты" width="" height="">
+              <h2>Фитнес-браслеты</h2>
+            </a>
+          </li>
+          <li class="navigation-catalig-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Умные часы" width="" height="">
+              <h2>Умные часы</h2>
+            </a>
+          </li>
+          <li class="navigation-catalig-item">
+            <a class="catalog-pic" href="#">
+              <img src="#" alt="Квадрокоптеры" width="" height="">
+              <h2>Квадрокоптеры</h2>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <selection class="slider-feature">
+        <ul class="slider-feature-list">
+          <li class="slider-feature-item">
+            <selection class="slider-feature-item-delivery">
+              <button class="slider-feature-btn">Доставка</button>
+              <h3 class="slider-feature-headline">Доставка</h3>
+              <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+            </selection>
+            <selection class="slider-feature-item-guarantee">
+              <button class="slider-feature-btn">Гарантия</button>
+              <h3 class="slider-feature-headline">Гарантия</h3>
+              <p class="slider-feature-text"></p>
+            </selection>
+            <selection class="slider-feature-item-credit">
+              <button class="slider-feature-btn">Кредит</button>
+              <h3 class="slider-feature-item-credit">Кредит</h3>
+              <p class="slider-feature-text"></p>
+            </selection>
+          </li>
+        </ul>
+        <selection class="labels"
+          
+      </selection>
+    </main>
   </body>
 </html>
