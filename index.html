@@ -35,20 +35,26 @@
         </ul>
         <!--Корзина END-->
         <ul class="navigation-menu">
-          <li class="navigator-menu-item">
+          <li class="navigation-menu-item">
             <a class="catalog" href="#">КАТАЛОГ ТОВАРОВ</a>
           </li>
           <!--Выпадающее меню START-->
-            <ul class="dropdown-menu-list-first">
-              <li class="dropdown-menu-item">
-                <a href="#">Виртуальная реальность</a>
-              </li>
-              <li class="dropdown-menu-item">
-                <a href="#">Моноподы для селфи</a>
-              </li>
-              <li class="dropdown-menu-item">
-                <a href="#">Экшн-камеры</a>
-              </li>
+           <section class="dropdown-menu-first">
+             <h1 class=visually-hidden>Первое выпадающее меню</h1>
+              <ul class="dropdown-menu-list-first">
+                <li class="dropdown-menu-item">
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#">Экшн-камеры</a>
+                </li>
+              </ul>
+            </section>
+            <section class="dropdown-menu-secound">
+             <h1 class=visually-hidden>Второе выпадающее меню</h1>
               <ul class="dropdown-menu-list-secound">
                 <li class="dropdown-menu-item">
                   <a href="#">Фитнес-браслеты</a>
@@ -57,22 +63,27 @@
                   <a href="#">Умные часы</a>
                 </li>
               </ul>
+            </section>
+            <section class="dropdown-menu-third">
+             <h1 class=visually-hidden>Второе выпадающее меню</h1>
               <ul class="dropdown-menu-list-third">
                 <li class="dropdown-menu-item">
                   <a href="#">Квадрокоптеры</a>
                 </li>
               </ul>
-            </ul>
+            </section>
+        </ul>
           <!--Выпадающее меню END-->
-          <li class="navigator-menu-item">
-            <a class="delivery" href="#">ДОСТАВКА</a>
-          </li>
-          <li class="navigator-menu-item">
-            <a class="guarantee" href="#">ГАРАНТИЯ</a>
-          </li>
-          <li class="navigator-menu-item">
-            <a class="contacts" href="#">КОНТАКТЫ</a>
-          </li>
+           <ul class="navigation-menu-list">
+            <li class="navigation-menu-item">
+              <a class="delivery" href="#">ДОСТАВКА</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="guarantee" href="#">ГАРАНТИЯ</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="contacts" href="#">КОНТАКТЫ</a>
+            </li>
         </ul>
       </nav>
     </header>
@@ -106,7 +117,8 @@
            <li class="slider-catalog-smart">
             <h1 class="visually hidden">Мотивирующие фитнес-браслеты</h1>
             <b>Худеем правильно</b>
-            <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+            <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы<br>
+            не пропускать занятия и соблюдать диету.
             </p> 
             <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
             <table class="slider-catalog-specification-smart">
@@ -119,21 +131,24 @@
             </table>
           </li>
           <!--Умные браслеты слайд END-->
-           <li class="slider-catalog-smart">
-            <h1 class="visually hidden">Мотивирующие фитнес-браслеты</h1>
-            <b>Худеем правильно</b>
-            <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
-            </p> 
-            <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
-            <table class="slider-catalog-specification-smart">
+          <!--Квадрокоптер слайд START-->
+            <li class="slider-catalog-quadrupter">
+             <h1 class="visually hidden">Мотивирующие фитнес-браслеты</h1>
+             <b>Порхает как бабочка,<br>
+            жалит как пчела!</b>
+             <p class="slider-catalog-smart-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+             </p> 
+             <a class="slider-catalog-button" href="#">ПОДРОБНЕЕ</a>
+             <table class="slider-catalog-specification-smart">
               <tr>
                 <td>48 часов</td>
               </tr>
               <tr>
                 <th>Без подзарядки</th>
               </tr>
-            </table>
-          </li>
+             </table>
+            </li>
+          <!--Квадрокоптер слайд END-->
         </ul>
       </section>
       <nav class="navigation-catalog">
@@ -176,29 +191,30 @@
           </li>
         </ul>
       </nav>
-      <selection class="slider-feature">
+      <section class="slider-feature">
         <ul class="slider-feature-list">
           <li class="slider-feature-item">
-            <selection class="slider-feature-item-delivery">
+            <section class="slider-feature-item-delivery">
               <button class="slider-feature-btn">Доставка</button>
               <h3 class="slider-feature-headline">Доставка</h3>
               <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-            </selection>
-            <selection class="slider-feature-item-guarantee">
+            </section>
+            <section class="slider-feature-item-guarantee">
               <button class="slider-feature-btn">Гарантия</button>
               <h3 class="slider-feature-headline">Гарантия</h3>
               <p class="slider-feature-text"></p>
-            </selection>
-            <selection class="slider-feature-item-credit">
+            </section>
+            <section class="slider-feature-item-credit">
               <button class="slider-feature-btn">Кредит</button>
               <h3 class="slider-feature-item-credit">Кредит</h3>
               <p class="slider-feature-text"></p>
-            </selection>
+            </section>
           </li>
         </ul>
-        <selection class="labels"
-          
-      </selection>
+        <section class="labels">
+            
+        </section>
+      </section>
     </main>
   </body>
 </html>
