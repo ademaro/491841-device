@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/slylie.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+
 </head>
 
 <body>
@@ -23,7 +27,7 @@
             </nav>
         </div>
         <nav class="main-menu">
-            <a class="main-menu-dropdown">Каталог</a>
+            <a class="main-menu-dropdown">Каталог товаров</a>
             <a href="" class="main-menu-dropdown-item">Виртуальная реальность</a>
             <a href="" class="main-menu-dropdown-item">Моноподы для селфи</a>
             <a href="" class="main-menu-dropdown-item">Экшн-камеры</a>
@@ -98,22 +102,22 @@
             <a class="quadropter" href="">Квадрокоптер</a>
         </section>
         <section class="slider-feature">
-           <input type="checkbox" class="slider-feature-page" id="delivery" name="slider-feature-option">
-           <label for="delivery" class="btn">Доставка</label>
-           <div class="slider-content-delivery">
-               <h1 class="slider-feature-headline">Доставка</h1>
-               <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-           </div>
-           <input type="checkbox" class="slide-feature-page" id="guarantee" name="slider-feature-option">
-           <label for="guarantee" class="btn">Гарантия</label>
-           <div class="slider-content-guarantee">
-               <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
-           </div>
-           <input type="checkbox" class="slider-feauter-page" id="credit" name="slider-feature-option">
-           <label for="credit" class="btn">Кредит</label>
-           <div class="slider-content-credit">
-               <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
-           </div>
+            <input type="checkbox" class="slider-feature-page" id="delivery" name="slider-feature-option">
+            <label for="delivery" class="btn">Доставка</label>
+            <div class="slider-content-delivery">
+                <h1 class="slider-feature-headline">Доставка</h1>
+                <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+            </div>
+            <input type="checkbox" class="slide-feature-page" id="guarantee" name="slider-feature-option">
+            <label for="guarantee" class="btn">Гарантия</label>
+            <div class="slider-content-guarantee">
+                <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
+            </div>
+            <input type="checkbox" class="slider-feauter-page" id="credit" name="slider-feature-option">
+            <label for="credit" class="btn">Кредит</label>
+            <div class="slider-content-credit">
+                <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
+            </div>
         </section>
         <section class="labels">
             <span class="labels-item"><img src="#" alt="DJI" width="" height=""></span>
@@ -122,7 +126,7 @@
         </section>
         <div class="about-and-contacts">
             <section class="about">
-                <h2 class="about-headline">О НАС</h2>
+                <h2 class="about-item">О нас</h2>
                 <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
                 <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
                 <ul class="about-list">
@@ -136,14 +140,14 @@
                         <a>ЖелДорЭкспедиция</a>
                     </li>
                 </ul>
-                <a href="" class="about-button">Подробнее о нас</a>
+                <a href="" class="btn">Подробнее о нас</a>
             </section>
             <section class="contacts">
                 <h2 class="contacts-headline">Контакты</h2>
                 <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить<br> работоспособность покупки. Всякое бывает.
                 </p>
                 <img class="map" src="#" alt="map" width="" height="">
-                <a class="contacts-button" href="#">Напишите нам</a>
+                <a class="btn" href="#">Напишите нам</a>
             </section>
         </div>
     </main>
@@ -178,10 +182,13 @@
     </footer>
     <section class="modal-write-us">
         <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
+            <h2>Ваше имя:</h2>
             <input type="text" class="write-us-item" name="name" value="" c placeholder="Имя Фамилия">
+            <h2>Ваш e-mail:</h2>
             <input type="text" class="write-us-item" name="email" value="" placeholder="email@example.com">
-            <input type="text" class="write-us-item" name="text" value="" placeholder="В свободной форме">
-            <button class="button" type="submit">Отправить</button>
+            <h2>Текст письма:</h2>
+            <input type="textarea" class="write-us-item" name="text" value="" placeholder="В свободной форме">
+            <button class="btn" type="submit">Отправить</button>
         </form>
         <button class="modal-close" type="button">Закрыть</button>
     </section>

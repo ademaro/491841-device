@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "gilroy-light gilroy-bold";
+    src: url("fonts/glroylight.wolf2") format("woff2"),
+         url("fonts/glroylight.wolf") format("woff"),
+         url("fonts/glroyextrabold.wolf") format("woff2"),
+         url("fonts/glroyextrabold.wolf") format("woff")
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("fonts/glroyextrabold.wolf") format("woff2"),
+         url("fonts/glroyextrabold.wolf") format("woff")
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("fonts/glroyextrabold.wolf") format("woff2"),
+         url("fonts/glroyextrabold.wolf") format("woff")
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "open sans", Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30pt;
+    font-weight: 300; 
+    color: #464646;
+    text-transform: none;
+    
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.user-menu-search {
+    font-family: "Open Sans";
+    font-size: 15pt;
+    line-height: 30pt;
+    
+    color: #000000;
+}
+
+header {
+    background: #f7e296;
+    color: #000000;
+}
+.user-menu-list {
+    font-family: "Open Sans";
+    font-size: 15pt;
+    font-weight: 300;
+    line-height: 30pt;
+    
+    color: #000000;
+}
+
+.main-menu {
+    line-height: 36pt;
+    color: #000000;
+    
+}
+
+.main-menu-dropdown {
+    font-family: "gilroy-bold";
+    font-size: 15pt;
+    font-weight: 800;
+    line-height: 24pt;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.main-menu-item {
+    font-family: "gilroy-bold";
+    font-size: 15pt;
+    font-weight: 800;
+    line-height: 24pt;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+h1 {
+    font-family: "girloy-bold";
+    font-size: 47pt;
+    font-weight: 800;
+    line-height: 56pt;
+    
+    color: #000000;
+}
+
+.btn {
+    font-family: "girloy-bold";
+    font-size: 18pt;
+    font-weight: 800;
+    line-height: 25pt;
+    
+    color: #000000;
+}
+
+td {
+    font-family: "girloy-bold";
+    font-size: 36pt;
+    font-weight: 300;
+    line-height: 48pt;
+    
+    color: #000000;
+}
+
+th {
+    font-family: "open sans";
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 20pt;
+    /*Прописал 13 шрифт, но на страничке почему-то 17*/
+}
+
+.navigation-catalog {
+    font-family: "girloy-bold";
+    font-size: 18pt;
+    font-weight: 800;
+    line-height: 24pt;
+    
+    color: #000000;
+}
+
+.about-and-contacts h2 {
+    font-family: "girloy-bold";
+    font-size: 47pt;
+    font-weight: 800;
+    line-height: 48pt;
+    
+    color: #000000;
+}
+
+.about-list {
+    font-family: "girloy-bold";
+    font-size: 16pt;
+    font-weight: 800;
+    line-height: 40pt;
+    
+    color: #000000;
+}
+
+footer {
+    background: #464646;
+    color: #ffffff;
+}
+
+.main-footer-content a {
+    font-family: "girloy-bold";
+    font-size: 18pt;
+    font-weight: 800;
+    line-height: 24pt;
+    
+}
+
+.modal-write-us h2 {
+    font-family:"gildroy-bold";
+    font-size: 18pt;
+    font-weight: 800;
+    line-height: 24pt;
+    
+    color: #000000;
+}
+
+.modal-write-us input {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: 500; /*Regular???*/
+    
+}
+
