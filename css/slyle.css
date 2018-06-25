@@ -1,35 +1,26 @@
 @font-face {
-    font-family: "gilroy-light gilroy-bold";
-    src: url("fonts/glroylight.wolf2") format("woff2"),
-         url("fonts/glroylight.wolf") format("woff"),
-         url("fonts/glroyextrabold.wolf") format("woff2"),
-         url("fonts/glroyextrabold.wolf") format("woff")
+    font-family: "gilroy-light";
+    src: url("css/fonts/glroylight.wolf2") format("woff2"),
+         url("css/fonts/glroylight.wolf") format("woff"),
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "gilroy-bold";
-    src: url("fonts/glroyextrabold.wolf") format("woff2"),
-         url("fonts/glroyextrabold.wolf") format("woff")
+    src: url("css/fonts/glroyextrabold.wolf") format("woff2"),
+         url("css/fonts/glroyextrabold.wolf") format("woff")
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: "gilroy-bold";
-    src: url("fonts/glroyextrabold.wolf") format("woff2"),
-         url("fonts/glroyextrabold.wolf") format("woff")
-    font-weight: normal;
-    font-style: normal;
-}
 body {
     margin: 0;
     padding: 0;
     
     font-family: "open sans", Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 30pt;
+    line-height: 30px;
     font-weight: 300; 
     color: #464646;
     text-transform: none;
@@ -42,37 +33,52 @@ a {
 }
 
 .user-menu-search {
-    font-family: "Open Sans";
-    font-size: 15pt;
-    line-height: 30pt;
-    
     color: #000000;
 }
 
+.search: hover {
+    
+}
+
+.search: active {
+    
+}
+
+.search: focus {
+    
+}
+
+.btn: hover {
+
+}
+
+.btn: active {
+    
+}
+
+.btn: focus {
+    
+}
+.
 header {
     background: #f7e296;
     color: #000000;
 }
 .user-menu-list {
-    font-family: "Open Sans";
-    font-size: 15pt;
-    font-weight: 300;
-    line-height: 30pt;
-    
     color: #000000;
 }
 
 .main-menu {
-    line-height: 36pt;
+    line-height: 36px;
     color: #000000;
     
 }
 
 .main-menu-dropdown {
     font-family: "gilroy-bold";
-    font-size: 15pt;
+    font-size: 15px;
     font-weight: 800;
-    line-height: 24pt;
+    line-height: 24px;
     text-transform: uppercase;
     
     color: #000000;
@@ -80,9 +86,9 @@ header {
 
 .main-menu-item {
     font-family: "gilroy-bold";
-    font-size: 15pt;
+    font-size: 15px;
     font-weight: 800;
-    line-height: 24pt;
+    line-height: 24px;
     text-transform: uppercase;
     
     color: #000000;
@@ -90,62 +96,61 @@ header {
 }
 h1 {
     font-family: "girloy-bold";
-    font-size: 47pt;
+    font-size: 47px;
     font-weight: 800;
-    line-height: 56pt;
+    line-height: 56px;
     
     color: #000000;
 }
 
 .btn {
     font-family: "girloy-bold";
-    font-size: 18pt;
+    font-size: 18px;
     font-weight: 800;
-    line-height: 25pt;
+    line-height: 25px;
     
     color: #000000;
 }
 
 td {
     font-family: "girloy-bold";
-    font-size: 36pt;
+    font-size: 36px;
     font-weight: 300;
-    line-height: 48pt;
+    line-height: 48px;
     
     color: #000000;
 }
 
 th {
-    font-family: "open sans";
-    font-size: 13pt;
+    font-size: 13px;
     font-weight: 300;
-    line-height: 20pt;
+    line-height: 20px;
     /*Прописал 13 шрифт, но на страничке почему-то 17*/
 }
 
 .navigation-catalog {
     font-family: "girloy-bold";
-    font-size: 18pt;
+    font-size: 18px;
     font-weight: 800;
-    line-height: 24pt;
+    line-height: 24px;
     
     color: #000000;
 }
 
 .about-and-contacts h2 {
     font-family: "girloy-bold";
-    font-size: 47pt;
+    font-size: 47px;
     font-weight: 800;
-    line-height: 48pt;
+    line-height: 48px;
     
     color: #000000;
 }
 
 .about-list {
     font-family: "girloy-bold";
-    font-size: 16pt;
+    font-size: 16px;
     font-weight: 800;
-    line-height: 40pt;
+    line-height: 40px;
     
     color: #000000;
 }
@@ -157,24 +162,23 @@ footer {
 
 .main-footer-content a {
     font-family: "girloy-bold";
-    font-size: 18pt;
+    font-size: 18px;
     font-weight: 800;
-    line-height: 24pt;
+    line-height: 24px;
     
 }
 
 .modal-write-us h2 {
     font-family:"gildroy-bold";
-    font-size: 18pt;
+    font-size: 18px;
     font-weight: 800;
-    line-height: 24pt;
+    line-height: 24px;
     
     color: #000000;
 }
 
 .modal-write-us input {
-    font-family: sans-serif;
-    font-size: 14pt;
+    font-size: 14px;
     font-weight: 500; /*Regular???*/
     
 }
