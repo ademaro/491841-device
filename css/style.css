@@ -53,6 +53,7 @@ header {
 
 .user-menu-search {
   color: #000000;
+  align-items: flex-start;
 }
 
 .user-menu-list {
@@ -214,5 +215,15 @@ footer {
   margin-top: 39px;
   padding-left: 59px;
   padding-right: 61px;
+}
 
+.user-menu {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+}
+.user-menu-list a {
+  width: 94px;
 }
