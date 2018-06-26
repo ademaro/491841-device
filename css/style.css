@@ -190,8 +190,20 @@ footer {
 .sort-by h2 {
 	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 16px;
-	line-height: 1.5em;
 	font-weight: 800;
+	line-height: 1.5em;
 	text-transform: uppercase;
 }
 
+.catalog h3 {
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.3em;
+}
+
+.catalog span {
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
