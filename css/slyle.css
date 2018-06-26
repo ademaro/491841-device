@@ -35,12 +35,9 @@
 }
 
 body {
-	margin: 0;
-	padding: 0;
-
-	font-family: "open sans", Helvetica, sans-serif;
+	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 15px;
-	line-height: 30px;
+	line-height: 2em;
 	font-weight: 300;
 	color: #464646;
 	text-transform: none;
@@ -52,12 +49,11 @@ a {
 	text-decoration: none;
 }
 
-.user-menu-search {
+header {
+	background: #f7e296;
 	color: #000000;
 }
-
-. header {
-	background: #f7e296;
+.user-menu-search {
 	color: #000000;
 }
 
@@ -66,64 +62,44 @@ a {
 }
 
 .main-menu {
-	line-height: 36px;
-	color: #000000;
-
-}
-
-.main-menu-dropdown {
-	font-family: "Gilroy";
-	font-size: 15px;
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-weight: 800;
-	line-height: 24px;
+	line-height: 1.3em;
+	color: #000000;
 	text-transform: uppercase;
 
-	color: #000000;
 }
 
-.main-menu-item {
-	font-family: "gilroy-bold";
-	font-size: 15px;
-	font-weight: 800;
-	line-height: 24px;
-	text-transform: uppercase;
-
-	color: #000000;
-
-}
-
-h1 {
-	font-family: "girloy-bold";
+.slider-catalog h1 {
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 47px;
 	font-weight: 800;
-	line-height: 56px;
+	line-height: 1.2em;
 
 	color: #000000;
 }
 
 .btn {
-	font-family: "girloy-bold";
+	font-family: "Gilroy", Helvetica, sans-serif;;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 25px;
+	line-height: 1.6em;
 
 	color: #000000;
 }
 
-td {
-	font-family: "girloy-bold";
+.table-specific td {
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 36px;
-	font-weight: 300;
-	line-height: 48px;
+	line-height: 1.3em;
 
 	color: #000000;
 }
 
-th {
+.table-specific th {
 	font-size: 13px;
 	font-weight: 300;
-	line-height: 20px;
-	/*Прописал 13 шрифт, но на страничке почему-то 17*/
+	line-height: 1.6em;
 }
 
 .navigation-catalog {
