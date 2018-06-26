@@ -59,12 +59,11 @@ header {
 }
 
 .main-menu {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-weight: 800;
 	line-height: 1.3em;
 	color: #000000;
 	text-transform: uppercase;
-
 }
 
 .main-menu-dropdown-item {
@@ -72,7 +71,7 @@ header {
 }
 
 .slider-catalog h1 {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 47px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -81,7 +80,7 @@ header {
 }
 
 .btn {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	;
 	font-size: 18px;
 	font-weight: 800;
@@ -92,7 +91,7 @@ header {
 }
 
 .table-specific td {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial, sans-serif;
 	font-size: 36px;
 	line-height: 1.3em;
 
@@ -106,7 +105,7 @@ header {
 }
 
 .navigation-catalog {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.3em;
@@ -115,7 +114,7 @@ header {
 }
 
 .us h2 {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 47px;
 	font-weight: 800;
 	line-height: 1em;
@@ -124,7 +123,7 @@ header {
 }
 
 .about-list {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 2.5em;
@@ -138,15 +137,14 @@ footer {
 }
 
 .main-footer-content a {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.3em;
-
 }
 
 .modal-write-us h2 {
-	font-family: "Gilroy", Helvetica, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.3em;
@@ -157,5 +155,43 @@ footer {
 .modal-write-us input {
 	font-size: 14px;
 	font-weight: 500;
-	/*Regular???*/
 }
+.page-headline {
+	font-family: font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 47px;
+	line-height: 0.6px;
+}
+
+.breadcrumbs-list {
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+.filters h2 {
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.filters legend {
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.3em;
+}
+
+.filters label {
+	font-size: 14px;
+	line-height: 2.9em;
+}
+
+.sort-by h2 {
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
