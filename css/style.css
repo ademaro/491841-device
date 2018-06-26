@@ -1,35 +1,31 @@
 @font-face {
 	font-family: "Gilroy";
-	src: 
-			url("...fonts/glroylight.woff2") format("woff2"),
-			url("...fonts/glroylight.woff") format("woff"),
+	src: url("...fonts/glroylight.woff2") format("woff2"),
+	url("...fonts/glroylight.woff") format("woff"),
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gilroy";
-	src: 
-			url("css/fonts/glroyextrabold.woff2") format("woff2"),
-			url("css/fonts/glroyextrabold.woff") format("woff"), 
+	src: url("css/fonts/glroyextrabold.woff2") format("woff2"),
+	url("css/fonts/glroyextrabold.woff") format("woff"),
 	font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Open Sans";
-	src: 
-			url("...fonts/opensanslight.woff2") format("woff2"),
-			url("...fonts/opensanslight.woff") format("woff"),
+	src: url("...fonts/opensanslight.woff2") format("woff2"),
+	url("...fonts/opensanslight.woff") format("woff"),
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Open Sans";
-	src:
-			url("...fonts/opensans.woff2") format ("woff2"),
-			url("...fonts/opensans.woff") format ("woff"),
+	src: url("...fonts/opensans.woff2") format ("woff2"),
+	url("...fonts/opensans.woff") format ("woff"),
 	font-weight: 500;
 	font-style: normal;
 }
@@ -53,6 +49,7 @@ header {
 	background: #f7e296;
 	color: #000000;
 }
+
 .user-menu-search {
 	color: #000000;
 }
@@ -70,6 +67,10 @@ header {
 
 }
 
+.main-menu-dropdown-item {
+	text-transform: none;
+}
+
 .slider-catalog h1 {
 	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 47px;
@@ -80,10 +81,12 @@ header {
 }
 
 .btn {
-	font-family: "Gilroy", Helvetica, sans-serif;;
+	font-family: "Gilroy", Helvetica, sans-serif;
+	;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.6em;
+	text-transform: uppercase;
 
 	color: #000000;
 }
@@ -103,28 +106,28 @@ header {
 }
 
 .navigation-catalog {
-	font-family: "girloy-bold";
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 24px;
+	line-height: 1.3em;
 
 	color: #000000;
 }
 
-.about-and-contacts h2 {
-	font-family: "girloy-bold";
+.us h2 {
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 47px;
 	font-weight: 800;
-	line-height: 48px;
+	line-height: 1em;
 
 	color: #000000;
 }
 
 .about-list {
-	font-family: "girloy-bold";
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 800;
-	line-height: 40px;
+	line-height: 2.5em;
 
 	color: #000000;
 }
@@ -135,18 +138,18 @@ footer {
 }
 
 .main-footer-content a {
-	font-family: "girloy-bold";
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 24px;
+	line-height: 1.3em;
 
 }
 
 .modal-write-us h2 {
-	font-family: "gildroy-bold";
+	font-family: "Gilroy", Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 24px;
+	line-height: 1.3em;
 
 	color: #000000;
 }
