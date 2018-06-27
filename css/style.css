@@ -38,6 +38,7 @@ body {
   font-weight: 300;
   color: #464646;
   text-transform: none;
+  margin: auto;
 
   background-color: #ffffff;
 }
@@ -52,20 +53,26 @@ header {
 }
 
 .user-menu-search {
+  margin-right: auto;
+  
   color: #000000;
   align-items: flex-start;
+  border: 3px solid red;
+
+  
 }
 
 .user-menu-list {
   color: #000000;
+  border: 3px solid blue;
 }
 
 .main-menu {
-  font-family: "Gilroy", Arial Black, sans-serif;
-  font-weight: 800;
-  line-height: 1.3em;
-  color: #000000;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  
+
 }
 
 .main-menu-dropdown-item {
@@ -220,10 +227,57 @@ footer {
 .user-menu {
   display: flex;
   justify-content: flex-end;
+  padding-top: 36px;
   
 }
 
+.user-menu-search {
+
 }
-.user-menu-list a {
-  width: 94px;
+
+.main-header-logo {
+  display: block;
+  width: 162px;
+  height: 34px;
+  /* Временно */
+  background: black;
+}
+
+.wrap-dropdown-first {
+width: 200px;
+height: 90px;
+}
+
+.wrap-dropdown-secound {
+  width: 200px;
+  height: 90px;
+}
+
+
+.main-menu-dropdown {
+  font-family: "Gilroy", Arial Black, sans-serif;
+  font-weight: 800;
+  line-height: 1.3em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-menu-item {
+  font-family: "Gilroy", Arial Black, sans-serif;
+  font-weight: 800;
+  line-height: 1.3em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.user-menu-compare {
+  margin-right: 41px;
+}
+
+
+
+.user-menu-log-in {
+  margin-right: 219px;
+  
+  border: 2px solid red;
 }
