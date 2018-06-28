@@ -334,6 +334,33 @@ border: 2px solid green;
   display: block;
 }
 
+.slider-feature {
+  
+}
+
+.slider-feature label {
+  display: block;
+}
+
+.slider-feature input {
+  display: none;
+}
+
+.slider-feature div {
+  display: none;
+}
+
+#delivery:checked ~ .slider-content-delivery {
+  display: block;
+}
+
+#guarantee:checked ~ .slider-content-guarantee {
+  display: block;
+}
+
+#credit:checked ~ .slider-content-credit {
+  display: block;
+}
 .slider-content-selfi {
   border: 2px solid green;
 }
@@ -362,3 +389,15 @@ border: 2px solid green;
   height: 563px;
 }
 
+.main-footer {
+  padding-left: 59px;
+  padding-right: 61px;
+  border: 2px solid white;
+}
+
+.
+
+
+.main-footer-content {
+  
+}
