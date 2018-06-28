@@ -310,8 +310,37 @@ border: 2px solid green;
   border: 2px solid red;
 }
 
+.slider-catalog label {
+  display: block;
+}
+
+.slider-catalog input {
+  display: none;
+}
+
+.slider-catalog div {
+  display: none;
+}
+
+#selfi:checked ~ .slider-content-selfi {
+  display: block;
+}
+
+#smart:checked ~ .slider-content-smart {
+  display: block;
+}
+
+#quadcopter:checked ~ .slider-content-quadcopter {
+  display: block;
+}
+
 .slider-content-selfi {
 
   border: 2px solid green;
 }
 
+
+.slider-feature-wrap {
+
+  border: 2px solid green;
+}
