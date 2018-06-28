@@ -335,12 +335,30 @@ border: 2px solid green;
 }
 
 .slider-content-selfi {
-
   border: 2px solid green;
 }
-
 
 .slider-feature-wrap {
-
   border: 2px solid green;
 }
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.us {
+  display: flex;
+}
+
+.about {
+  width: 465px;
+  height: 563px;
+}
+
+.contacts {
+  width: 563px;
+  height: 563px;
+}
+
