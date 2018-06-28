@@ -114,6 +114,9 @@ main {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.3em;
+  
+  color: black;
+  text-decoration: none;
 
   border: 2px solid blue;
 }
@@ -390,14 +393,9 @@ border: 2px solid green;
 }
 
 .main-footer {
+  display: flex;
   padding-left: 59px;
   padding-right: 61px;
   border: 2px solid white;
 }
 
-.
-
-
-.main-footer-content {
-  
-}
