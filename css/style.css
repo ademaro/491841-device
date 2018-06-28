@@ -54,7 +54,7 @@ header {
 
 .user-menu-search {
   margin-right: auto;
-  
+
   color: #000000;
   align-items: flex-start;
   border: 3px solid red;
@@ -66,13 +66,13 @@ header {
 }
 
 .main-menu {
+
 }
 
 .main-menu-dropdown-item {
   order: 1;
   text-transform: none;
-  
-  
+
 }
 
 .slider-catalog h1 {
@@ -222,9 +222,10 @@ footer {
 
 .user-menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   padding-top: 36px;
-  
+
 }
 
 .user-menu-search {
@@ -241,7 +242,7 @@ footer {
 
 .wrap-dropdown-first {
 order: 1;
-  
+
 width: 200px;
 height: 90px;
 
@@ -252,14 +253,14 @@ border: 2px solid green;
   order: 2;
   width: 200px;
   height: 90px;
-  
+
   border: 2px solid black;
 }
 
 
 .main-menu-dropdown {
   margin-right: auto;
-  
+
   font-family: "Gilroy", Arial Black, sans-serif;
   font-weight: 800;
   line-height: 1.3em;
@@ -282,12 +283,13 @@ border: 2px solid green;
 
 .user-menu-log-in {
   margin-right: 219px;
-  
+
   border: 2px solid red;
 }
 
 .wraper-main-menu {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-end;
   border: 2px solid red;
@@ -305,6 +307,6 @@ border: 2px solid green;
   order: 3;
   width: 200px;
   height: 90px;
-  
+
   border: 2px solid black;
 }
