@@ -310,3 +310,19 @@ border: 2px solid green;
 
   border: 2px solid black;
 }
+
+.slider-catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid red;
+}
+
+.slider-content-selfi {
+
+  border: 2px solid green;
+}
+
+.slider-catalog-page {
+
+}
