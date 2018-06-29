@@ -62,7 +62,6 @@ main {
 
   color: #000000;
   align-items: flex-start;
-  border: 3px solid red;
 }
 
 .user-menu-list {
@@ -114,11 +113,9 @@ main {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.3em;
-  
+
   color: black;
   text-decoration: none;
-
-  border: 2px solid blue;
 }
 
 .us h2 {
@@ -234,22 +231,16 @@ footer {
   display: block;
   width: 162px;
   height: 34px;
-  /* Временно */
-  background: black;
 }
 
 .wrap-dropdown-first {
   width: 200px;
   height: 90px;
-
-  border: 2px solid green;
 }
 
 .wrap-dropdown-secound {
   width: 200px;
   height: 90px;
-
-  border: 2px solid black;
 }
 
 
@@ -265,7 +256,7 @@ footer {
 
 .main-menu-item {
   margin-left: 109px;
-  
+
   font-family: "Gilroy", Arial Black, sans-serif;
   font-weight: 800;
   line-height: 1.3em;
@@ -279,8 +270,6 @@ footer {
 
 .user-menu-log-in {
   margin-right: 219px;
-
-  border: 2px solid red;
 }
 
 .wraper-main-menu {
@@ -288,8 +277,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-end;
-  
-  border: 2px solid red;
 }
 
 .wrap-dropdown {
@@ -303,16 +290,12 @@ footer {
 .wrap-dropdown-third {
   width: 200px;
   height: 90px;
-
-  border: 2px solid black;
 }
 
 .slider-catalog {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  
-  border: 2px solid red;
 }
 
 .slider-catalog label {
@@ -361,19 +344,17 @@ footer {
 
 #credit:checked ~ .slider-content-credit {
   display: block;
-  order: 6;
 }
 
 .slider-content-selfi {
-  border: 2px solid green;
+
 }
 
 .slider-feature-wrap {
   display: flex;
   flex-direction: row;
-  border: 2px solid green;
   justify-content: space-between;
-  
+
 }
 
 .labels {
@@ -401,15 +382,27 @@ footer {
   flex-direction: column;
   padding-left: 59px;
   padding-right: 61px;
-  border: 2px solid white;
-  
+
   align-items: center;
-  
+
   color: #ffffff;
 }
 
 .slider-content-delivery {
-  text-align: right;
+  width: 560px;
+  padding-left: 450px;
+  align-items: flex-end;
 }
 
+.slider-content-guarantee {
+  width: 560px;
+  padding-left: 450px;
+  align-items: flex-end;
+}
+
+.slider-content-credit {
+  width: 560px;
+  padding-left: 450px;
+  align-items: flex-end;
+}
 
