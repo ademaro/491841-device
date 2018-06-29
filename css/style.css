@@ -68,9 +68,36 @@ main {
   color: #000000;
 }
 
+.main-menu-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  padding-top: 53px;
+}
+
 .main-menu-dropdown-item {
   text-transform: none;
+  display: block;
 }
+
+.wrap-dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 639px;
+}
+
+.slider-catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  background: white;
+}
+
 .slider-catalog h1 {
   font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 47px;
@@ -78,6 +105,31 @@ main {
   line-height: 1.2em;
 
   color: #000000;
+}
+
+.slider-catalog label {
+  display: none;
+}
+
+.slider-catalog input {
+  display: block;
+}
+
+.slider-catalog div {
+  display: none;
+}
+
+#selfi:checked ~ .slider-content-selfi {
+  display: block;
+  width: 560px;
+}
+
+#smart:checked ~ .slider-content-smart {
+  display: block;
+}
+
+#quadcopter:checked ~ .slider-content-quadcopter {
+  display: block;
 }
 
 .btn {
@@ -91,7 +143,7 @@ main {
 }
 
 .table-specific td {
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 36px;
   line-height: 1.3em;
 
@@ -232,17 +284,6 @@ footer {
   height: 34px;
 }
 
-.wrap-dropdown-first {
-  width: 200px;
-  height: 149px;
-}
-
-.wrap-dropdown-secound {
-  width: 200px;
-  height: 90px;
-}
-
-
 .main-menu-dropdown {
   margin-right: auto;
 
@@ -271,56 +312,10 @@ footer {
   margin-right: 219px;
 }
 
-.wraper-main-menu {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-end;
 
-  padding-top: 53px;
-}
-
-.wrap-dropdown {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 40px;
-  width: 639px;
-}
 
 .wrap-dropdown-third {
-  width: 200px;
-  height: 90px;
-}
 
-.slider-catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.slider-catalog label {
-  display: block;
-}
-
-.slider-catalog input {
-  display: none;
-}
-
-.slider-catalog div {
-  display: none;
-}
-
-#selfi:checked ~ .slider-content-selfi {
-  display: block;
-}
-
-#smart:checked ~ .slider-content-smart {
-  display: block;
-}
-
-#quadcopter:checked ~ .slider-content-quadcopter {
-  display: block;
 }
 
 .slider-feature label {
