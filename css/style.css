@@ -1,3 +1,7 @@
+* {
+  outline: 2px solid red;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("..fonts/glroylight.woff2") format("woff2"),
@@ -31,7 +35,6 @@
 }
 
 body {
-  max-width: 1160px;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 15px;
   line-height: 2em;
@@ -48,6 +51,8 @@ a {
 }
 
 header {
+  max-width: 1160px;
+  margin: auto;
   background: #FBF0CA;
   color: #000000;
 }
@@ -57,67 +62,7 @@ main {
   padding-right: 61px;
 }
 
-.user-menu-search {
-  margin-right: auto;
 
-  color: #000000;
-  align-items: flex-start;
-}
-
-.user-menu-list {
-  color: #000000;
-}
-
-.main-menu-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-end;
-
-  padding-top: 53px;
-}
-
-.main-menu-dropdown-item {
-  text-transform: none;
-  display: block;
-}
-
-.wrap-dropdown {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 40px;
-  width: 639px;
-}
-
-.slider-catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  
-  background: white;
-}
-
-.slider-catalog h1 {
-  font-family: "Gilroy", Arial Black, sans-serif;
-  font-size: 47px;
-  font-weight: 800;
-  line-height: 1.2em;
-
-  color: #000000;
-}
-
-.slider-catalog label {
-  display: none;
-}
-
-.slider-catalog input {
-  display: block;
-}
-
-.slider-catalog div {
-  display: none;
-}
 
 #selfi:checked ~ .slider-content-selfi {
   display: block;
@@ -304,20 +249,6 @@ footer {
   text-transform: uppercase;
 }
 
-.user-menu-compare {
-  margin-right: 41px;
-}
-
-.user-menu-log-in {
-  margin-right: 219px;
-}
-
-
-
-.wrap-dropdown-third {
-
-}
-
 .slider-feature label {
   display: block;
 }
@@ -400,6 +331,6 @@ footer {
 }
 
 .main-menu-footer {
- order: 2;
+  order: 2;
   align-items: flex-end;
 }
