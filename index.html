@@ -11,11 +11,13 @@
 <body>
   <header class="main-header">
     <a class="main-header-logo" href="#"><img src="logo.png" alt="Лого" width="162px" height="34px"></a>
-    <div class="user-menu">
-      <form class="user-menu-search">
-        <button class="search-btn" type="submit">Поиск</button>
-        <input type="search" placeholder="Поиск по сайту" class="search">
-      </form>
+    <div class="user-menu-wrapper">
+      <div class="search-wrapper">
+        <form class="user-menu-search">
+          <button class="search-btn" type="submit">Поиск</button>
+          <input type="search" placeholder="Поиск по сайту" class="search">
+        </form>
+      </div>
       <nav class="user-menu-list">
         <a class="user-menu-log-in" href="#">Войти</a>
         <a class="user-menu-compare" href="#">Сравнить</a>
@@ -23,20 +25,22 @@
       </nav>
     </div>
     <nav class="main-menu">
-      <div class="main-menu-wrap">
+      <div class="main-menu-dropdown-wrapper">
         <a class="main-menu-dropdown">Каталог товаров</a>
+      </div>
+      <div class="main-menu-item-wrapper">
         <a href="#" class="main-menu-item">Доставка</a>
         <a href="#" class="main-menu-item">Гарантия</a>
         <a href="#" class="main-menu-item">Контакты</a>
       </div>
+    </nav>
+    <nav class="main-menu-dropdown-item-wrapper">
       <a href="#" class="main-menu-dropdown-item">Виртуальная реальность</a>
-      <a href="catalog.html" class="main-menu-dropdown-item">Моноподы для селфи</a>
-      <a href="#" class="main-menu-dropdown-item">Экшн-камеры</a>
-      <a href="#" class="main-menu-dropdown-item">Фитнес-браслеты</a>
-      <a href="#" class="main-menu-dropdown-item">Умные часы</a>
-      <div class="wrap-dropdown-third">
-        <a href="#" class="main-menu-dropdown-item">Квадрокоптеры</a>
-      </div>
+      <a href="catalog.html" class="main-menu-dropdown-item">Фитнес-браслеты</a>
+      <a href="#" class="main-menu-dropdown-item">Квадрокоптеры</a>
+      <a href="#" class="main-menu-dropdown-item">Моноподы для селфи</a>
+      <a href="#" class="main-menu-dropdown-item" style="width: 66.7% ">Умные часы</a>
+      <a href="#" class="main-menu-dropdown-item" style="width: 100%">Экшн-камеры</a>
     </nav>
     <section class="slider-catalog">
       <input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">

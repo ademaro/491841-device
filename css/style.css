@@ -55,12 +55,57 @@ header {
   margin: auto;
   background: #FBF0CA;
   color: #000000;
+  padding-left: 59px;
+  padding-right: 61px;
+  margin-top: 25px;
+  padding-top: 1px;  
 }
 
+.main-header-logo {
+  margin-top: -9px;
+  margin-bottom: 35px;
+}
+
+.user-menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.user-menu-list {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu-item-wrapper {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu-dropdown-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.main-menu-dropdown-item {
+  width: 33%;
+}
 main {
   padding-left: 59px;
   padding-right: 61px;
 }
+
 
 
 
@@ -240,7 +285,6 @@ footer {
 }
 
 .main-menu-item {
-  margin-left: 109px;
 
   font-family: "Gilroy", Arial Black, sans-serif;
   font-weight: 800;
