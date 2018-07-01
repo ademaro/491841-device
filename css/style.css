@@ -35,7 +35,7 @@
 }
 
 body {
-  min-width: 1444px;
+
   
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 15px;
@@ -54,7 +54,8 @@ a {
 
 header {
   max-width: 1160px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   color: #000000;
   padding-left: 60px;
   padding-right: 60px;
@@ -292,14 +293,15 @@ main {
 footer {
   color: #ffffff;
   background: #464646;
-  margin: auto;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
-.main-footer {
-  background: #464646;
+.main-footer-wrapper {
+  
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1160px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .main-footer-content a {
