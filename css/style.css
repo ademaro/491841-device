@@ -66,9 +66,7 @@ header {
   margin-right: auto;
   width: 1040px;
 } 
-.main-header-wrapper {
-  
-}
+
 .main-header-logo {
   margin-top: -9px;
   margin-bottom: 35px;
@@ -86,8 +84,6 @@ header {
   display: flex;
   width: 500px;
   justify-content: space-between;
-  
-  
 }
 
 .user-menu-compare {
@@ -319,7 +315,6 @@ footer {
 }
 
 .main-footer-wrapper {
-  
   margin-left: auto;
   margin-right: auto;
   max-width: 1160px;
@@ -386,22 +381,23 @@ footer {
 /* Catalog page*/
 
 .page-headline {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
   font-family: font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 47px;
-  line-height: 0.6px;
+  line-height: 0.6px; 
 }
 
 .breadcrumbs-list {
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   width: 384px;
   
-  
   font-size: 14px;
   line-height: 1.7em;
   list-style-type: none;
-  
-  
 }
 
 .catalog-menu-wrapper {
@@ -431,10 +427,7 @@ footer {
 
 .sort-by-type-wrapper {
   width: 285px;
-  
-
 }
-
 
 .filters h2 {
   font-family: "Gilroy", Arial Black, sans-serif;
