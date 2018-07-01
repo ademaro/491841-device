@@ -10,41 +10,47 @@
 
 <body>
   <header class="main-header">
-    <a class="main-header-logo" href="#"><img src="logo.png" alt="Лого" width="162px" height="34px"></a>
-    <div class="user-menu-wrapper">
-      <div class="search-wrapper">
-        <form class="user-menu-search">
-          <button class="search-btn" type="submit">Поиск</button>
-          <input type="search" placeholder="Поиск по сайту" class="search">
-        </form>
+    <div class="main-header-wrapper">
+      <a class="main-header-logo" href="#"><img src="logo.png" alt="Лого" width="162px" height="34px"></a>
+      <div class="user-menu-wrapper">
+        <div class="search-wrapper">
+          <form class="user-menu-search">
+            <button class="search-btn" type="submit">Поиск</button>
+            <input type="search" placeholder="Поиск по сайту" class="search">
+          </form>
+        </div>
+        <nav class="user-menu-list">
+          <a class="user-menu-log-in" href="#">Войти</a>
+          <a class="user-menu-compare" href="#">Сравнить</a>
+          <a class="user-menu-basket" href="">Корзина</a>
+        </nav>
       </div>
-      <nav class="user-menu-list">
-        <a class="user-menu-log-in" href="#">Войти</a>
-        <a class="user-menu-compare" href="#">Сравнить</a>
-        <a class="user-menu-basket" href="">Корзина</a>
+      <nav class="main-menu">
+        <div class="main-menu-dropdown-wrapper">
+          <a class="main-menu-dropdown">Каталог товаров</a>
+        </div>
+        <div class="main-menu-item-wrapper">
+          <a href="#" class="main-menu-item">Доставка</a>
+          <a href="#" class="main-menu-item">Гарантия</a>
+          <a href="#" class="main-menu-item">Контакты</a>
+        </div>
+      </nav>
+      <nav class="main-menu-dropdown-item-wrapper">
+        <a href="#" class="main-menu-dropdown-item">Виртуальная реальность</a>
+        <a href="catalog.html" class="main-menu-dropdown-item">Фитнес-браслеты</a>
+        <a href="#" class="main-menu-dropdown-item">Квадрокоптеры</a>
+        <a href="#" class="main-menu-dropdown-item">Моноподы для селфи</a>
+        <a href="#" class="main-menu-dropdown-item" style="width: 66.7% ">Умные часы</a>
+        <a href="#" class="main-menu-dropdown-item" style="width: 100%">Экшн-камеры</a>
       </nav>
     </div>
-    <nav class="main-menu">
-      <div class="main-menu-dropdown-wrapper">
-        <a class="main-menu-dropdown">Каталог товаров</a>
-      </div>
-      <div class="main-menu-item-wrapper">
-        <a href="#" class="main-menu-item">Доставка</a>
-        <a href="#" class="main-menu-item">Гарантия</a>
-        <a href="#" class="main-menu-item">Контакты</a>
-      </div>
-    </nav>
-    <nav class="main-menu-dropdown-item-wrapper">
-      <a href="#" class="main-menu-dropdown-item">Виртуальная реальность</a>
-      <a href="catalog.html" class="main-menu-dropdown-item">Фитнес-браслеты</a>
-      <a href="#" class="main-menu-dropdown-item">Квадрокоптеры</a>
-      <a href="#" class="main-menu-dropdown-item">Моноподы для селфи</a>
-      <a href="#" class="main-menu-dropdown-item" style="width: 66.7% ">Умные часы</a>
-      <a href="#" class="main-menu-dropdown-item" style="width: 100%">Экшн-камеры</a>
-    </nav>
     <section class="slider-catalog">
       <input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
+      <input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
+      <input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
       <label for="selfi">Селфи</label>
+      <label for="smart">Смарт</label>
+      <label for="quadcopter">Квадрокоптер</label>
       <div class="slider-content-selfi slider-catalog-checked">
         <h1 class="slider-catalog-headline">Делай селфи,как Бен Стиллер</h1>
         <p class="slider-catalog-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 кг.</p>
@@ -62,8 +68,6 @@
           </tr>
         </table>
       </div>
-      <input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
-      <label for="smart">Смарт</label>
       <div class="slider-content-smart">
         <h1 class="slider-catalog-headline">Худеем правильно</h1>
         <p class="slider-catalog-text">Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.</p>
@@ -77,8 +81,6 @@
           </tr>
         </table>
       </div>
-      <input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
-      <label for="quadcopter">Квадрокоптер</label>
       <div class="slider-content-quadcopter">
         <h1 class="slider-catalog-headline">Порхает как бабочка,<br> жалит как пчела!</h1>
         <p class="slider-catalog-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
@@ -98,33 +100,31 @@
   </header>
   <main>
     <section class="navigation-catalog">
-      <a class="virtual-reality wrap" href="#">Виртуальная реальность</a>
-      <a class="monopods wrap" href="#">Моноподы для селфи</a>
-      <a class="camers wrap" href="#">Экшн-камеры</a>
-      <a class="fitness wrap" href="#">Фитнес-браслеты</a>
-      <a class="smart wrap" href="#">Умные часы</a>
-      <a class="quadropter wrap" href="#">Квадрокоптер</a>
+      <a class="virtual-reality" href="#">Виртуальная реальность</a>
+      <a class="monopods" href="#">Моноподы для селфи</a>
+      <a class="camers" href="#">Экшн-камеры</a>
+      <a class="fitness" href="#">Фитнес-браслеты</a>
+      <a class="smart" href="#">Умные часы</a>
+      <a class="quadropter" href="#">Квадрокоптер</a>
     </section>
-    <div class="slider-feature-wrap">
-      <section class="slider-feature">
-        <input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
-        <label for="delivery" class="btn">Доставка</label>
-        <div class="slider-content-delivery slider-feature-checked">
-          <h1 class="slider-feature-headline">Доставка</h1>
-          <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-        </div>
-        <input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
-        <label for="guarantee" class="btn">Гарантия</label>
-        <div class="slider-content-guarantee">
-          <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
-        </div>
-        <input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
-        <label for="credit" class="btn">Кредит</label>
-        <div class="slider-content-credit">
-          <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
-        </div>
-      </section>
-    </div>
+    <section class="slider-feature">
+      <label for="delivery" class="btn">Доставка</label>
+      <input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
+      <div class="slider-content-delivery slider-feature-checked">
+        <h1 class="slider-feature-headline">Доставка</h1>
+        <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+      </div>
+      <label for="guarantee" class="btn">Гарантия</label>
+      <input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
+      <div class="slider-content-guarantee">
+        <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
+      </div>
+      <label for="credit" class="btn">Кредит</label>
+      <input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
+      <div class="slider-content-credit">
+        <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
+      </div>
+    </section>
     <section class="labels">
       <span class="labels-item"><img src="#" alt="DJI" width="" height=""></span>
       <span class="labels-item"><img src="#" alt="SpGadgets" width="" height=""></span>
@@ -151,7 +151,7 @@
       </section>
       <section class="contacts">
         <h2 class="us-headline">Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить<br> работоспособность покупки. Всякое бывает.
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
         </p>
         <img class="map" src="#" alt="map" width="" height="">
         <a class="btn" href="#">Напишите нам</a>
@@ -160,28 +160,44 @@
   </main>
   <footer class="main-footer">
     <section class="main-footer-header">
-      <div class="footer-logo-wrap">
-        <a class="main-footer-logo" href="index.html"><img src="#" alt="Logo" width="" height=""></a>
+      <div class="footer-header-wrapper">
+        <div class="footer-logo-wrapper">
+          <a class="main-footer-logo" href="index.html"><img src="#" alt="Logo" width="" height=""></a>
+        </div>
+        <nav class="main-menu-footer">
+          <a href="#" class="user-menu-log-in-footer">Войти</a>
+          <a href="#" class="user-menu-compare-footer">Сравнить</a>
+          <a href="#" class="user-menu-basket-footer">Корзина</a>
+        </nav>
       </div>
-      <nav class="main-menu-footer">
-        <a href="#" class="user-menu-logged-footer">Валентин Петухов</a>
-        <a href="#" class="user-menu-log-out-footer">Выйти</a>
-        <a href="#" class="user-menu-compare-footer">Сравнить</a>
-        <a href="#" class="user-menu-basket-footer">Корзина</a>
-      </nav>
     </section>
     <section class="main-footer-content">
-      <p class="main-footer-address">г. Москва, ул. Строителей, 15</p>
-      <a href="#" class="main-menu-footer">Доставка</a>
-      <a href="#" class="main-menu-footer">Гарантия</a>
-      <a href="#" class="main-menu-footer">Контакты</a>
-      <span class="phone">Тел.: +7 (495) 495-95-95</span>
+      <div class="main-footer-content-wrapper">
+        <div class="footer-address-wrapper">
+          <p class="main-footer-address">г. Москва, ул. Строителей, 15</p>
+        </div>
+        <div class="menu-footer-wrapper">
+          <a href="#" class="menu-footer-item">Доставка</a>
+          <a href="#" class="menu-footer-item">Гарантия</a>
+          <a href="#" class="menu-footer-item">Контакты</a>
+        </div>
+        <div class="phone-wrapper">
+          <span class="phone">Тел.: +7 (495) 495-95-95</span>
+        </div>
+      </div>
     </section>
     <section class="main-footer-footer">
-      <a class="socials" href="#">Facebook</a>
-      <a class="socials" href="#">Instagram</a>
-      <a class="socials" href="#">Twitter</a>
-      <a class="logo-academy" href="htmlacademy.ru"></a>
+      <div class="decor-footer-footer-wrapper">
+        <p class="decor">Decor</p>
+      </div>
+      <div class="socials-wrapper">
+        <a class="socials" href="#">Facebook</a>
+        <a class="socials" href="#">Instagram</a>
+        <a class="socials" href="#">Twitter</a>
+      </div>
+      <div class="logo-academy-wrapper">
+        <a class="logo-academy" href="htmlacademy.ru"></a>
+      </div>
     </section>
   </footer>
   <section class="modal-feedback popup">
