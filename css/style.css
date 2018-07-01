@@ -247,6 +247,7 @@ main {
 .us {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 90px;
 }
 
 .us h2 {
@@ -259,11 +260,24 @@ main {
 }
 
 .about {
-  width: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 420px;
 }
 
 .contacts {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 565px;
+  flex-grow: 1;
+  margin-left: 300px;
+
+}
+
+.contacts img{
+  flex-grow: 1;
 }
 
 .about-list {
