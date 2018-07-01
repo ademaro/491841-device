@@ -386,6 +386,7 @@ footer {
   
   font-family: font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 47px;
+  font-weight: 800;
   line-height: 0.6px; 
 }
 
@@ -400,6 +401,9 @@ footer {
   list-style-type: none;
 }
 
+.catalog {
+  width: 830px;
+}
 .catalog-menu-wrapper {
   display: flex;
   width: 1160px;
@@ -416,10 +420,6 @@ footer {
   justify-content: space-between;
 }
 
-.sort-by-headline-wrapper {
-  padding-left: 
-}
-
 .sort-by {
   display: flex;
   justify-content: space-between;
@@ -427,6 +427,14 @@ footer {
 
 .sort-by-type-wrapper {
   width: 285px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.sort-by-direction-wrapper {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .filters h2 {
@@ -457,6 +465,10 @@ footer {
   text-transform: uppercase;
 }
 
+.catalog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 .catalog h3 {
   font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 18px;
@@ -470,7 +482,7 @@ footer {
   line-height: 1.5em;
 }
 
-
-
-
-
+.navigation-bottom-list> {
+  display: flex;
+  flex-direction: row;
+}
