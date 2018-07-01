@@ -10,7 +10,7 @@
 
 <body>
   <header class="main-header">
-    <div class="main-header-wrapper">
+    <div class="main-header-wrapper centralizer">
       <a class="main-header-logo" href="#"><img src="logo.png" alt="Лого" width="162px" height="34px"></a>
       <div class="user-menu-wrapper">
         <div class="search-wrapper">
@@ -31,7 +31,7 @@
         </div>
         <div class="main-menu-item-wrapper">
           <a href="#" class="main-menu-item">Доставка</a>
-          <a href="#" class="main-menu-item">Гарантия</a>
+          <a href="#" class="main-menu-item-guarantee">Гарантия</a>
           <a href="#" class="main-menu-item">Контакты</a>
         </div>
       </nav>
@@ -44,60 +44,60 @@
         <a href="#" class="main-menu-dropdown-item" style="width: 100%">Экшн-камеры</a>
       </nav>
     </div>
-    <section class="slider-catalog">
-      <input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
-      <input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
-      <input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
-      <label for="selfi">Селфи</label>
-      <label for="smart">Смарт</label>
-      <label for="quadcopter">Квадрокоптер</label>
-      <div class="slider-content-selfi slider-catalog-checked">
-        <h1 class="slider-catalog-headline">Делай селфи,как Бен Стиллер</h1>
-        <p class="slider-catalog-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 кг.</p>
-        <a href="#" class="btn">Подробнее</a>
-        <table class="table-specific">
-          <tr>
-            <td>8,5 м</td>
-            <td>5 кг</td>
-            <td>Карбон</td>
-          </tr>
-          <tr>
-            <th>Длинна палки</th>
-            <th>Вес палки</th>
-            <th>Материал</th>
-          </tr>
-        </table>
-      </div>
-      <div class="slider-content-smart">
-        <h1 class="slider-catalog-headline">Худеем правильно</h1>
-        <p class="slider-catalog-text">Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.</p>
-        <a href="#" class="btn">Подробнее</a>
-        <table class="table-specific">
-          <tr>
-            <td>48 часов</td>
-          </tr>
-          <tr>
-            <th>Без подзарядки</th>
-          </tr>
-        </table>
-      </div>
-      <div class="slider-content-quadcopter">
-        <h1 class="slider-catalog-headline">Порхает как бабочка,<br> жалит как пчела!</h1>
-        <p class="slider-catalog-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-        <a class="btn" href="#">Подробнее</a>
-        <table class="table-specific">
-          <tr>
-            <td>800 м</td>
-            <td>50 м</td>
-          </tr>
-          <tr>
-            <th>Дальность полёта</th>
-            <th>Радиус поражения</th>
-          </tr>
-        </table>
-      </div>
-    </section>
   </header>
+  <section class="slider-catalog centralizer">
+    <input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
+    <input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
+    <input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
+    <label for="selfi">Селфи</label>
+    <label for="smart">Смарт</label>
+    <label for="quadcopter">Квадрокоптер</label>
+    <div class="slider-content-selfi slider-catalog-checked">
+      <h1 class="slider-catalog-headline">Делай селфи,как Бен Стиллер</h1>
+      <p class="slider-catalog-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 кг.</p>
+      <a href="#" class="btn">Подробнее</a>
+      <table class="table-specific">
+        <tr>
+          <td>8,5 м</td>
+          <td>5 кг</td>
+          <td>Карбон</td>
+        </tr>
+        <tr>
+          <th>Длинна палки</th>
+          <th>Вес палки</th>
+          <th>Материал</th>
+        </tr>
+      </table>
+    </div>
+    <div class="slider-content-smart">
+      <h1 class="slider-catalog-headline">Худеем правильно</h1>
+      <p class="slider-catalog-text">Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.</p>
+      <a href="#" class="btn">Подробнее</a>
+      <table class="table-specific">
+        <tr>
+          <td>48 часов</td>
+        </tr>
+        <tr>
+          <th>Без подзарядки</th>
+        </tr>
+      </table>
+    </div>
+    <div class="slider-content-quadcopter">
+      <h1 class="slider-catalog-headline">Порхает как бабочка,<br> жалит как пчела!</h1>
+      <p class="slider-catalog-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+      <a class="btn" href="#">Подробнее</a>
+      <table class="table-specific">
+        <tr>
+          <td>800 м</td>
+          <td>50 м</td>
+        </tr>
+        <tr>
+          <th>Дальность полёта</th>
+          <th>Радиус поражения</th>
+        </tr>
+      </table>
+    </div>
+  </section>
   <main>
     <section class="navigation-catalog">
       <a class="virtual-reality" href="#">Виртуальная реальность</a>
@@ -107,25 +107,27 @@
       <a class="smart" href="#">Умные часы</a>
       <a class="quadropter" href="#">Квадрокоптер</a>
     </section>
-    <section class="slider-feature">
-      <label for="delivery" class="btn">Доставка</label>
-      <input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
-      <div class="slider-content-delivery slider-feature-checked">
-        <h1 class="slider-feature-headline">Доставка</h1>
-        <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-      </div>
-      <label for="guarantee" class="btn">Гарантия</label>
-      <input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
-      <div class="slider-content-guarantee">
-        <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
-      </div>
-      <label for="credit" class="btn">Кредит</label>
-      <input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
-      <div class="slider-content-credit">
-        <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
-      </div>
+    <div class="slider-feature-wrapper">
+    <section class="slider-feature centralizer">
+        <label for="delivery" class="btn">Доставка</label>
+        <input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
+        <div class="slider-content-delivery slider-feature-checked">
+          <h1 class="slider-feature-headline">Доставка</h1>
+          <p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+        </div>
+        <label for="guarantee" class="btn">Гарантия</label>
+        <input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
+        <div class="slider-content-guarantee">
+          <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
+        </div>
+        <label for="credit" class="btn">Кредит</label>
+        <input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
+        <div class="slider-content-credit">
+          <p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
+        </div>
     </section>
-    <section class="labels">
+    </div>
+    <section class="labels centralizer">
       <span class="labels-item"><img src="#" alt="DJI" width="" height=""></span>
       <span class="labels-item"><img src="#" alt="SpGadgets" width="" height=""></span>
       <span class="labels-item"><img src="#" alt="GoPro" width="" height=""></span>
@@ -159,47 +161,47 @@
     </div>
   </main>
   <footer class="main-footer">
-   <div class="main-footer-wrapper">
-    <section class="main-footer-header">
-      <div class="footer-header-wrapper">
-        <div class="footer-logo-wrapper">
-          <a class="main-footer-logo" href="index.html"><img src="#" alt="Logo" width="" height=""></a>
+    <div class="main-footer-wrapper">
+      <section class="main-footer-header">
+        <div class="footer-header-wrapper">
+          <div class="footer-logo-wrapper">
+            <a class="main-footer-logo" href="index.html"><img src="#" alt="Logo" width="" height=""></a>
+          </div>
+          <nav class="main-menu-footer">
+            <a href="#" class="user-menu-log-in-footer">Войти</a>
+            <a href="#" class="user-menu-compare-footer">Сравнить</a>
+            <a href="#" class="user-menu-basket-footer">Корзина</a>
+          </nav>
         </div>
-        <nav class="main-menu-footer">
-          <a href="#" class="user-menu-log-in-footer">Войти</a>
-          <a href="#" class="user-menu-compare-footer">Сравнить</a>
-          <a href="#" class="user-menu-basket-footer">Корзина</a>
-        </nav>
-      </div>
-    </section>
-    <section class="main-footer-content">
-      <div class="main-footer-content-wrapper">
-        <div class="footer-address-wrapper">
-          <p class="main-footer-address">г. Москва, ул. Строителей, 15</p>
+      </section>
+      <section class="main-footer-content">
+        <div class="main-footer-content-wrapper">
+          <div class="footer-address-wrapper">
+            <p class="main-footer-address">г. Москва, ул. Строителей, 15</p>
+          </div>
+          <div class="menu-footer-wrapper">
+            <a href="#" class="menu-footer-item">Доставка</a>
+            <a href="#" class="menu-footer-item">Гарантия</a>
+            <a href="#" class="menu-footer-item">Контакты</a>
+          </div>
+          <div class="phone-wrapper">
+            <span class="phone">Тел.: +7 (495) 495-95-95</span>
+          </div>
         </div>
-        <div class="menu-footer-wrapper">
-          <a href="#" class="menu-footer-item">Доставка</a>
-          <a href="#" class="menu-footer-item">Гарантия</a>
-          <a href="#" class="menu-footer-item">Контакты</a>
+      </section>
+      <section class="main-footer-footer">
+        <div class="decor-footer-footer-wrapper">
+          <p class="decor">Decor</p>
         </div>
-        <div class="phone-wrapper">
-          <span class="phone">Тел.: +7 (495) 495-95-95</span>
+        <div class="socials-wrapper">
+          <a class="socials" href="#">Facebook</a>
+          <a class="socials" href="#">Instagram</a>
+          <a class="socials" href="#">Twitter</a>
         </div>
-      </div>
-    </section>
-    <section class="main-footer-footer">
-      <div class="decor-footer-footer-wrapper">
-        <p class="decor">Decor</p>
-      </div>
-      <div class="socials-wrapper">
-        <a class="socials" href="#">Facebook</a>
-        <a class="socials" href="#">Instagram</a>
-        <a class="socials" href="#">Twitter</a>
-      </div>
-      <div class="logo-academy-wrapper">
-        <a class="logo-academy" href="htmlacademy.ru"></a>
-      </div>
-    </section>
+        <div class="logo-academy-wrapper">
+          <a class="logo-academy" href="htmlacademy.ru"></a>
+        </div>
+      </section>
     </div>
   </footer>
   <section class="modal-feedback popup">

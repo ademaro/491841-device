@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("..fonts/glroylight.woff2") format("woff2"),
-  url("..fonts/glroylight.woff") format("woff");
+  src: url("../fonts/glroylight.woff2") format("woff2"),
+  url("../fonts/glroylight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -20,16 +20,16 @@
 
 @font-face {
   font-family: "Open Sans";
-  src: url("..fonts/opensanslight.woff2") format("woff2"),
-  url("..fonts/opensanslight.woff") format("woff");
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+  url("../fonts/opensanslight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("..fonts/opensans.woff2") format ("woff2"),
-  url("..fonts/opensans.woff") format ("woff");
+  src: url("../fonts/opensans.woff2") format ("woff2"),
+  url("../fonts/opensans.woff") format ("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -51,24 +51,22 @@ a {
 }
 
 header {
-  max-width: 1160px;
+  width: 1160px;
+  color: #000000;
+  margin-top: 25px;
+  padding-top: 1px; 
   margin-left: auto;
   margin-right: auto;
-  color: #000000;
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-top: 25px;
-  padding-top: 1px;  
+  
+  background: #f7e296;
 }
 
 .centralizer {
   margin-left:auto;
   margin-right: auto;
+  width: 1040px;
 } 
 .main-header-wrapper {
-  padding-left: 60px;
-  padding-right: 60px;
-  background: #f7e296;
   
 }
 .main-header-logo {
@@ -84,12 +82,17 @@ header {
   margin-bottom: 50px;
 }
 
-.user-menu-list {
+.user-menu-list {  
   display: flex;
   width: 500px;
   justify-content: space-between;
+  
+  
 }
 
+.user-menu-compare {
+  margin-left: 240px 
+}
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -127,6 +130,9 @@ header {
   width: 33%;
 }
 
+.main-menu-item-guarantee {
+  margin-right: 110px;
+}
 .slider-catalog {
   padding-left: 60px;
   padding-right: 60px;
@@ -182,9 +188,6 @@ header {
 main {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1160px;
-  padding-left: 60px;
-  padding-right: 60px;
   
 }
 
@@ -192,6 +195,9 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 88px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 1160px;
 
   font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 18px;
@@ -202,8 +208,12 @@ main {
   text-decoration: none;
 }
 
+.slider-feature-wrapper {
+  background: #e5e5e5;
+}
 .slider-feature {
   margin-bottom: 95px;
+  background: #e5e5e5;
 }
 
 .slider-feature label {
@@ -259,6 +269,9 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 90px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 1160px;
 }
 
 .us h2 {
