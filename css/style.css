@@ -54,10 +54,10 @@ header {
   width: 1160px;
   color: #000000;
   margin-top: 25px;
-  padding-top: 1px; 
+  padding-top: 1px;
   margin-left: auto;
   margin-right: auto;
-  
+
   background: #f7e296;
 }
 
@@ -65,7 +65,7 @@ header {
   margin-left:auto;
   margin-right: auto;
   width: 1040px;
-} 
+}
 
 .main-header-logo {
   margin-top: -9px;
@@ -80,14 +80,14 @@ header {
   margin-bottom: 50px;
 }
 
-.user-menu-list {  
+.user-menu-list {
   display: flex;
   width: 500px;
   justify-content: space-between;
 }
 
 .user-menu-compare {
-  margin-left: 240px 
+  margin-left: 240px
 }
 .main-menu {
   display: flex;
@@ -184,7 +184,7 @@ header {
 main {
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .navigation-catalog {
@@ -383,11 +383,11 @@ footer {
 .page-headline {
   margin-top: 40px;
   margin-bottom: 40px;
-  
+
   font-family: font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 47px;
   font-weight: 800;
-  line-height: 0.6px; 
+  line-height: 0.6px;
 }
 
 .breadcrumbs-list {
@@ -395,7 +395,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 384px;
-  
+
   font-size: 14px;
   line-height: 1.7em;
   list-style-type: none;
@@ -428,7 +428,7 @@ footer {
 .sort-by-type-wrapper {
   width: 285px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .sort-by-direction-wrapper {
@@ -481,8 +481,19 @@ footer {
   font-size: 16px;
   line-height: 1.5em;
 }
+.catalog-centralizer {
+  margin-left: 70px;
+}
+.catalog-centralizer article {
+  margin-right: 20px;
+}
 
+.catalog-product {
+  width: 360px;
+  height: 380px;
+}
 .navigation-bottom-list> {
+  width: 760px;
   display: flex;
   flex-direction: row;
 }
