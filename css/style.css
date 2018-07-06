@@ -175,7 +175,6 @@ a {
 	opacity: 1;
 }
 
-
 .login a::before {
 	content: "";
 	display: inline-block;
@@ -243,7 +242,6 @@ a {
 	letter-spacing: 0.2em;
 }
 
-
 .catalog-menu::after {
 	content: "";
 	display: inline-block;
@@ -288,8 +286,6 @@ a {
 .nav-dropdown:hover {
 	opacity: 0;
 }
-
-
 
 .nav-menu-items {
 	width: 500px;
@@ -378,7 +374,6 @@ margin-bottom: 20px;
   display:;
 }
 	
-}
 .btn {
   font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 18px;
@@ -387,19 +382,6 @@ margin-bottom: 20px;
   text-transform: uppercase;
 	letter-spacing: 0.2em;
   color: #000000;
-	z-index: 0;
-}
-
-.btn::after {
-	content: "";
-	
-	z-index: -1;
-	position: absolute;
-	
-	width: 100%;
-	height: 15%
-	background-color: #f0c52e;
-	
 }
 
 .table-specific td {
@@ -429,13 +411,13 @@ margin-bottom: 20px;
 }
 
 #selfi:checked ~ .slider-content-selfi {
-  display: inline-block;
+  display: block;
   width: 1070px;
   margin-left: auto;
 }
 
 #smart:checked ~ .slider-content-smart {
-  display: inline-block;
+  display: block;
   width: 1070px;
   margin-left: auto;
 }
@@ -468,14 +450,14 @@ margin-bottom: 20px;
 	color: black;	
 }
 
-.nav-catalog a {
+.nav-catalog div {
   display: block;
   width: 160px;
   height: 160px;
 	background-color: #ffe294; 
 }
 
-.nav-catalog a:hover {
+.nav-catalog div:hover {
   display: block;
   width: 160px;
   height: 160px;
@@ -490,10 +472,6 @@ margin-bottom: 20px;
   opacity: 0.3;
 }
 
-.nav-virtual {
-	position: relative;
-}
-
 }
 .nav-virtual::before {
 	content: "";
@@ -502,13 +480,22 @@ margin-bottom: 20px;
 	height: auto;
 	background-image:url(../img/virtual.svg);
 	background-repeat: no-repeat;
+}
 
+.nav-icon {
+	display: inline-block;
+	margin-top: 50px;
+	
 }
 
 .nav-catalog span {
   display: block;
-  margin-top: 190px;
+  margin-top:40px;
   
+}
+
+.nav-selfi span{
+	margin-top: 26px;
 }
 
 .slider-feature {
@@ -520,6 +507,8 @@ margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
   margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .slider-feature-wrapper h1 {
@@ -531,7 +520,33 @@ margin-bottom: 20px;
 	color: black;
 }
 
+.slider-feature-controls {
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: ;
+	align-self: center;
+}
 
+.slider-info {
+	margin-left: 120px;
+}
+
+.slider-feature-wrapper div {
+	display: n;
+}
+
+#delivery: checked ~ .slider-content-delivery {
+	display: block;
+}
+
+#guarantee: checked ~ .slider-content-guarantee {
+	display: block;
+}
+
+#credit: checked ~ .slider-content-credit {
+	display: block;
+}
 .brands {
 	margin-left: auto;
 	margin-right: auto;

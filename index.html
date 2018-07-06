@@ -51,17 +51,17 @@
 	</header>
 	<main class="main-page">
 		<section class="slider-catalog">
-				<input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
-				<input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
-				<input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
-				<label for="selfi">Селфи</label>
-				<label for="smart">Смарт</label>
-				<label for="quadcopter">Квадрокоптер</label>
+			<input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
+			<input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
+			<input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
+			<label for="selfi">Селфи</label>
+			<label for="smart">Смарт</label>
+			<label for="quadcopter">Квадрокоптер</label>
 			<div class="slider-content-selfi slider-catalog-checked">
-				<div class="slider-photo-wrapper">
+				<section class="slider-photo-wrapper">
 					<img src="img/slider-1.png" width="384px" height="486px" alt="selfi">
-				</div>
-				<div class="slider-info-wrapper">
+				</section>
+				<section class="slider-info-wrapper">
 					<h1>Делай селфи, как Бен Стиллер!</h1>
 					<p class="slider-catalog-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длинной и весом всего 5 килограмм.</p>
 					<div class="btn"><a href="#">Подробнее</a></div>
@@ -77,7 +77,7 @@
 							<th>Материал</th>
 						</tr>
 					</table>
-				</div>
+				</section>
 			</div>
 			<div class="slider-content-smart">
 				<div class="slider-photo-wrapper">
@@ -119,30 +119,66 @@
 			</div>
 		</section>
 		<section class="nav-catalog">
-			<a class="nav-virtual" href="#"><span>Виртуальная реальность</span></a>
-			<a href="#" class="nav-selfi"><span>Моноподы для селфи</span></a>
-			<a href="#" class="nav-camers"><span>Экшн-камеры</span></a>
-			<a href="#" class="nav-fitness"><span>Фитнес-браслеты</span></a>
-			<a href="#" class="nav-smart"><span>Умные часы</span></a>
-			<a href="#" class="nav-quadropter"><span>Квадрокоптер</span></a>
+			<a href="#">
+				<div class="nav-virtual">
+					<img src="img/catalog-virtual.svg" alt="virtual" class="nav-icon">
+				</div>
+				<span>Виртуальная<br> реальность</span>
+			</a>
+			<a href="">
+				<div class="nav-selfi">
+					<img class="nav-icon" src="img/selfi.svg" alt="selfi" class="nav-selfi">
+				</div>
+				<span>Моноподы для<br> селфи</span>
+			</a>
+			<a href="">
+				<div class="nav-camers">
+					<img class="nav-icon" src="img/catalog-cameras.svg">
+				</div>
+				<span>Экшн-камеры</span>
+			</a>
+			<a href="">
+				<div href="#" class="nav-fitness">
+					<img class="nav-icon" src="img/catalog-bracelets.svg">
+				</div>
+				<span>Фитнес-браслеты</span>
+			</a>
+			<a href="">
+				<div class="nav-smart">
+					<img class="nav-icon" src="img/catalog-watch.svg">
+				</div>
+				<span>Умные часы</span>
+			</a>
+			<a href="">
+				<div class="nav-quadropter">
+					<img class="nav-icon" src="img/catalog-quadrapters.svg">
+				</div>
+				<span>Квадрокоптер</span>
+			</a>
 		</section>
 		<section class="slider-feature">
 			<div class="slider-feature-wrapper">
-				<label for="delivery" class="btn">Доставка</label>
-				<input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
-				<div class="slider-content-delivery slider-feature-checked">
-					<h1 class="slider-feature-headline">Доставка</h1>
-					<p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+				<div class="slider-feature-controls">
+					<label for="delivery" class="btn">Доставка</label>
+					<input type="radio" class="slider-feature-page" id="delivery" name="slider-feature-option">
+					<label for="guarantee" class="btn">Гарантия</label>
+					<input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
+					<label for="credit" class="btn">Кредит</label>
+					<input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
 				</div>
-				<label for="guarantee" class="btn">Гарантия</label>
-				<input type="radio" class="slide-feature-page" id="guarantee" name="slider-feature-option">
-				<div class="slider-content-guarantee">
-					<p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
-				</div>
-				<label for="credit" class="btn">Кредит</label>
-				<input type="radio" class="slider-feauter-page" id="credit" name="slider-feature-option">
-				<div class="slider-content-credit">
-					<p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
+				<div class="slider-info">
+					<div class="slider-content-delivery slider-feature-checked">
+						<h1 class="slider-feature-headline">Доставка</h1>
+						<p class="slider-feature-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+					</div>
+					<div class="slider-content-guarantee">
+						<h1 class="slider-feature-headline">Гарантия</h1>
+						<p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit blanditiis ea quibusdam vitae consequuntur a architecto, nostrum, rem illum amet repudiandae, dolores at perferendis quisquam doloribus? Rerum perspiciatis, rem?</p>
+					</div>
+					<div class="slider-content-credit">
+						<h1 class="slider-feature-headline">Кредит</h1>
+						<p class="slider-feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In accusantium necessitatibus, repellendus quam accusamus. Consectetur nam, facilis porro tempore repellat mollitia neque omnis magni laboriosam molestiae labore eligendi illo, expedita.</p>
+					</div>
 				</div>
 			</div>
 		</section>
