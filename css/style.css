@@ -322,9 +322,23 @@ margin-bottom: 20px;
 }
 
 .slider-content-selfi {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.slider-content-selfi::before{
+	content: ("01");
+	position: absolute;
+	
+	z-index: ;
+	font-family: "Gilroy", Arial Black, sans-serif;
+	font-size: 179.2px;
+  font-weight: 800;
+  line-height: 1em;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .slider-photo-wrapper {
@@ -351,11 +365,12 @@ margin-bottom: 20px;
 
 .slider-info-wrapper h1 {
 	padding-bottom: 40px;
+	
 
-	font-family: font-family: "Gilroy", Arial Black, sans-serif;
+	font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 47px;
   font-weight: 800;
-  line-height: 0.6px;
+  line-height: 1.1em;
 }
 
 .slider-info-wrapper p {
@@ -407,7 +422,7 @@ margin-bottom: 20px;
 }
 
 .slider-catalog div {
-	display: none;
+	display: 
 }
 
 
@@ -473,22 +488,21 @@ margin-bottom: 20px;
   opacity: 0.3;
 }
 
-}
-.nav-virtual::before {
-	content: "";
-	position: absolute;
-	width: auto;
-	height: auto;
-	background-image:url(../img/virtual.svg);
-	background-repeat: no-repeat;
-}
-
-.nav-icon {
-	display: inline-block;
-	margin-top: 50px;
+.nav-catalog img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 
+.nav-selfi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-icon {
+	text-align: center;
+}
 .nav-catalog span {
   display: block;
   margin-top:40px;
@@ -534,10 +548,6 @@ margin-bottom: 20px;
 	
 	margin-left: 120px;
 	width: 460px;
-}
-
-.slider-feature-wrapper div {
-	display: n;
 }
 
 #delivery: checked ~ .slider-content-delivery {
@@ -586,11 +596,22 @@ margin-bottom: 20px;
 }
 
 .us {
+	position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 460px;
-  
+}
+
+.us::before {
+	content: "";
+	position: absolute;
+	
+	width: 80px;
+	height: 7px;
+	
+	background-color: black;
+	
 }
 
 .us h2 {
@@ -621,10 +642,22 @@ margin-bottom: 20px;
   color: #000000;
 }
 .contacts {
+	position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 560px;
+}
+
+.contacts::before {
+	content: "";
+	position: absolute;
+	
+	width: 80px;
+	height: 7px;
+	
+	background-color: black;
+		
 }
 
 .map {
@@ -691,6 +724,45 @@ margin-bottom: 20px;
 .main-menu-footer a:active {
 	opacity: 0.3;
 }
+
+.user-menu-log-in-footer::before {
+	content: "";
+	display: inline-block;
+	
+	margin-right: 10px;
+	
+	width: 13px;
+	height: 12px;
+	
+	background-image: url(../img/user-footer.svg);
+	background-repeat: no-repeat;
+}
+
+.user-menu-compare-footer::before {
+	content: "";
+	display: inline-block;
+	
+	margin-right: 10px;
+	
+	width: 13px;
+	height: 12px;
+	
+	background-image: url(../img/compare-footer.svg);
+	background-repeat: no-repeat;
+}
+
+.user-menu-basket-footer::before {
+	content: "";
+	display: inline-block;
+	
+	margin-right: 10px;
+	
+	width: 13px;
+	height: 12px;
+	
+	background-image: url(../img/cart-footer.svg);
+	background-repeat: no-repeat;
+}
 .menu-footer-wrapper a:hover {
 	opacity: 0.6;
 }
@@ -707,7 +779,7 @@ margin-bottom: 20px;
 
 .main-footer-footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -724,13 +796,59 @@ margin-bottom: 20px;
 	text-transform: uppercase;
 }
 
+.main-footer-content {
+	position: relative;
+}
+
+.main-footer-content::before {
+	content: "";
+	position: absolute;
+	
+	width: 80px;
+	height: 7px;
+	
+	bottom: -30px;
+	
+	background-color: #ffc600;
+}
+
+.logo-academy::after {
+	content: "";
+	display: block;
+	
+	width: 27px;
+	height: 35px;
+	
+	background-image: url(../img/logo-academy.png);
+	background-repeat: no-repeat;
+}
+
+.logo-academy-wrapper:hover {
+	opacity: 0.6;
+}
+
+.logo-academy-wrapper:active {
+	opacity: 0.3;
+}
+
 .socials-wrapper {
   display: flex;
   justify-content: space-between;
   width: 160px;
+	margin-left: 64px;
 }
 
+.socials-wrapper a {
+	opacity: 0.3;
+}
 
+.socials-wrapper a:hover {
+	opacity: 0.6;
+}
+
+.socials-wrapper a:active {
+	opacity: 0.1;
+}
 /*Catalog Page*/
 
 .headline-wrapper {
@@ -881,5 +999,9 @@ margin-bottom: 20px;
 	display
 	wi
 	background-color: #f7e296;
+	
+}
+
+
 	
 }
