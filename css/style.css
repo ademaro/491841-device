@@ -535,6 +535,7 @@ opacity: 0.3;
   text-transform: uppercase;
 	letter-spacing: 0.2em;
   color: #000000;
+	z-index: 1;
 }
 
 .btn::before {
@@ -607,7 +608,7 @@ opacity: 0.3;
 	width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 160px;
+	margin-bottom: 120px;
 	
 	display: flex;
 	justify-content: space-between;
@@ -669,6 +670,10 @@ opacity: 0.3;
 
 .slider-feature {
 	background-color: #e5e5e5;
+	padding-bottom: 60px;
+	position: relative;
+	margin-bottom: 100px;
+	
 }
 
 .slider-feature-wrapper {
@@ -691,10 +696,9 @@ opacity: 0.3;
 
 .slider-feature-controls {
 	width: 280px;
-	display: flex;
-	flex-direction: column;
 	align-items: ;
 	align-self: center;
+	padding-top: 45px;
 }
 
 .slider-info {
@@ -719,10 +723,34 @@ opacity: 0.3;
 .brands {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1040px;
+	width: 1160px;
 	display: flex;
 	justify-content: space-between;
   margin-bottom: 100px;
+}
+
+
+.slider-feature-controls label {
+	margin-bottom: 25px;
+	padding-left: 27px;
+	display: block;
+}
+
+.slider-content-delivery {
+	display:;
+}
+
+.slider-content-guarantee {
+	display: none;
+	
+}
+
+.slider-content-credit {
+	display: none;
+}
+
+.slider-feature-wrapper input {
+	display: none;	
 }
 .dji:hover {
 	background-image: url(../img/logo-dji.png);
@@ -751,10 +779,9 @@ opacity: 0.3;
 
 .us {
 	position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 460px;
+	
+
+  width: 475px;
 }
 
 .us::before {
@@ -763,6 +790,8 @@ opacity: 0.3;
 	
 	width: 80px;
 	height: 7px;
+	
+	top: -11px;
 	
 	background-color: black;
 	
@@ -779,12 +808,17 @@ opacity: 0.3;
 
 
 .about-list {
+	margin-bottom: px;
+	margin-top: 63px;
+	padding-left: px;
 	font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 2.5em;
 
   color: #000000;
+	
+
 }
 
 .contacts h2 {
@@ -797,9 +831,6 @@ opacity: 0.3;
 }
 .contacts {
 	position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 560px;
 }
 
@@ -809,6 +840,9 @@ opacity: 0.3;
 	
 	width: 80px;
 	height: 7px;
+	
+	top: -11px;
+	
 	
 	background-color: black;
 }
@@ -845,7 +879,7 @@ opacity: 0.3;
 }
 
 .footer-header {
-  margin-top: 65px;
+  margin-top: 58px;
 }
 
 .footer-header-wrapper {
@@ -870,7 +904,9 @@ opacity: 0.3;
 	opacity: 0.3;
 }
 .main-menu-footer {
-  width: 330px;
+	margin-top: 6px;
+	
+  width: 320px;
   display: flex;
   justify-content: space-between;
 	
@@ -941,12 +977,17 @@ opacity: 0.3;
   display: flex;
   justify-content: space-between;
   align-items: center;
+	
+	margin-top: 52px;
 }
 
 .menu-footer-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 440px;
+  width: 425px;
+	
+	margin-top: 10px;
+	margin-right: 30px;
 	
 	font-family: "Gilroy", Arial Black, sans-serif;
   font-size: 18px;
@@ -954,22 +995,16 @@ opacity: 0.3;
   line-height: 1.3em;
   color: white;
 	text-transform: uppercase;
+	letter-spacing: 0.2em;
 }
 
 .main-footer-content {
 	position: relative;
+	margin-top: 10px;
 }
 
 .main-footer-content::before {
-	content: "";
-	position: absolute;
 	
-	width: 80px;
-	height: 7px;
-	
-	bottom: -30px;
-	
-	background-color: #ffc600;
 }
 
 .logo-academy::after {
@@ -994,8 +1029,8 @@ opacity: 0.3;
 .socials-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 160px;
-	margin-left: 64px;
+  width: 140px;
+	margin-left: 30px;
 }
 
 .socials-wrapper a {
@@ -1305,20 +1340,19 @@ opacity: 0.3;
 	margin-top: -45px;
 	line-height: 2.0em;
 	margin-bottom: -10px;
+}
 
-}
-}
 .product-details-wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.
-}
+
 .write-us {
+	position: fixed;
 	margin-left: auto;
 	margin: auto;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .write-us input {
@@ -1340,9 +1374,6 @@ opacity: 0.3;
     font-family: "Gilroy", "Arial Black", sans-serif;
     vertical-align: top;
 }
-}
-
-
 
 .popup {
 	position: fixed;
@@ -1383,4 +1414,51 @@ opacity: 0.3;
 	position: absolute;
 	right: 20px;
 	bottom: 10px;
+}
+
+.us-headline {
+	margin-bottom: 45px;
+}
+
+.us p {
+	line-height: 2;
+	margin-bottom: 35px;
+}
+
+.us span {
+	line-height: 2;
+}
+
+.us a.btn {
+	margin-top: 44px;
+	padding-left: 20px;
+}
+.contacts p {
+	margin-top: 47px;
+	line-height: 2;
+}
+
+.contacts a.btn {
+	margin-top: 95px;
+}
+
+
+
+.decor-footer {
+	position: relative;
+}
+
+.decor-footer::before {
+	content: "";
+	position: absolute;
+	
+	width: 80px;
+	height: 7px;
+	
+	background-color: #ffc600;
+}
+
+.slider-feature::before {
+	content: "";
+	
 }
