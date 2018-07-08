@@ -51,13 +51,15 @@
 	</header>
 	<main class="main-page">
 		<section class="slider-catalog">
-			<input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option">
+			<input type="radio" class="slider-catalog-page" id="selfi" name="slider-catalog-option checked">
 			<input type="radio" class="slider-catalog-page" id="smart" name="slider-catalog-option">
 			<input type="radio" class="slider-catalog-page" id="quadcopter" name="slider-catalog-option">
-			<label for="selfi">Селфи</label>
-			<label for="smart">Смарт</label>
-			<label for="quadcopter">Квадрокоптер</label>
-			<div class="slider-content-selfi slider-catalog-checked">
+			<div class="slider-controls">
+				<label for="selfi"></label>
+				<label for="smart"></label>
+				<label for="quadcopter"></label>
+			</div>
+			<div class="slider-content-selfi">
 				<section class="slider-photo-wrapper">
 					<img src="img/slider-1.png" width="384px" height="486px" alt="selfi">
 				</section>
@@ -121,37 +123,33 @@
 		<section class="nav-catalog">
 			<a href="#">
 				<div class="nav-virtual">
-					
+
 				</div>
 				<span>Виртуальная<br> реальность</span>
 			</a>
 			<a href="">
 				<div class="nav-selfi">
-					
+
 				</div>
 				<span>Моноподы для<br> селфи</span>
 			</a>
 			<a href="">
 				<div class="nav-camers">
-					<img src="img/catalog-cameras.svg">
 				</div>
 				<span>Экшн-камеры</span>
 			</a>
 			<a href="">
 				<div href="#" class="nav-fitness">
-					<img src="img/catalog-bracelets.svg">
 				</div>
 				<span>Фитнес-браслеты</span>
 			</a>
 			<a href="">
 				<div class="nav-smart">
-					<img src="img/catalog-watch.svg">
 				</div>
 				<span>Умные часы</span>
 			</a>
 			<a href="">
 				<div class="nav-quadropter">
-					<img src="img/catalog-quadrapters.svg">
 				</div>
 				<span>Квадрокоптер</span>
 			</a>
@@ -260,22 +258,21 @@
 		</div>
 	</footer>
 	<section class="write-us popup">
-    <form class="write-us-form" method="post"
-    action="https://echo.htmlacademy.ru">
-      <label class="write-us-name">Ваше имя:
+		<form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
+			<label class="write-us-name">Ваше имя:
         <input class="write-us-name" type="text" name="full-name" placeholder="Имя Фамилия">
       </label>
-      <label class="write-us-item">Ваш e-mail:
+			<label class="write-us-item">Ваш e-mail:
         <input class="write-us-email" type="email" name="email" placeholder="email@example.com">
       </label>
-      <label class="write-us-item">Текст письма:
+			<label class="write-us-item">Текст письма:
         <textarea class="write-us-text" name="message" placeholder="В свободной форме"></textarea>
       </label>
-      <button class="button write-us-btn" type="submit">Отправить</button>
-    </form>
-      <button class="popup-closer" type="button">
+			<button class="button write-us-btn" type="submit">Отправить</button>
+		</form>
+		<button class="popup-closer" type="button">
       </button>
-  </section>
+	</section>
 </body>
 
 </html>
