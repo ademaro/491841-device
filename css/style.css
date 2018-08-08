@@ -1,4 +1,4 @@
-* {
+ *{
 	outline: 1px solid red;
 
 }
@@ -6,7 +6,7 @@
 @font-face {
 	font-family: "Gilroy";
 	src: url("../fonts/gilroyextrabold.woff") format("woff");
-	src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+	src: url("../fonts/gilroyextrabold.woff2") format("woff2");
 	font-weight: 900;
 
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .main-header {
-	width: 1160px;
+	
 	height: 299px;
 
 	margin-left: auto;
@@ -53,7 +53,7 @@ body {
 
 	margin-top: 40px;
 
-	background-color: #FBF0CA;
+	background-color: #F7E296;
 }
 
 .main-header a:any-link {
@@ -111,8 +111,8 @@ body {
 .main-search {
 	padding-left: 41px;
 	position: relative;
-
-  border-bottom: 2px solid black;
+	
+	
   color: rgba(0,0,0,0.3)
 }
 
@@ -131,8 +131,13 @@ body {
 }
 
 .main-search input {
+	
+	padding-right: 132px;
+	padding-top: 16px;
+	padding-bottom: 14px;
+	
+	border:none;
 	background-color: transparent;
-	border: none;
 	opacity: 0.3;
 
 }
@@ -146,8 +151,9 @@ body {
 }
 
 .search-btn {
+	display: none;
   margin-bottom: -2px;
-  margin-left: 130px;
+  
 
   width: 85px;
   height: 49px;
@@ -338,6 +344,14 @@ body {
   padding-left: 14px;
 }
 
+.main-search input:focus + .search-btn {
+	display: inline;
+}
+
+.main-search input:focus + .main-search input {
+	border-bottom: 2px solid black;
+}
+
 .main-nav a.dropdown:hover + .main-nav ul {
   display: block;
 }
@@ -346,4 +360,56 @@ body {
   display: block;
 }
 
+.outer-wrapper {
+	width: 1160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slider-selfi-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -71px
+}
+.slider-photo {
+	position: relative;
+	width: 384px;
+	height: 486px;
+}
+
+.slider-info {
+	position: relative;
+	width: 503px
+}
+
+.slider-photo::before {
+	content: "";
+	position: absolute;
+
+	width: 384px;
+	height: 486px;
+	
+	background-image: url(../img/slider-1.png.svg);
+	background-repeat: no-repeat;
+}
+
+.slider-info h2 {
+	font-family: "Gilroy", "Arial Black", sans-serif;
+	font-size: 47px;
+	font-weight: 900;
+	line-height: 56px;
+}
+
+.slider-info td {
+	font-family: "Gilroy", "Arial Black", sans-serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 300;
+}
+
+.slider-info th {
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 300;
+}
 

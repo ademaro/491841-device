@@ -2,62 +2,85 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Device</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Device</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="inner-wrapper">
-      <a href="index.html" class="logo"></a>
-      <div class="user-menu-wrapper">
-        <form class="main-search">
-          <input type="search" placeholder="Поиск по сайту">
-          <button type="submit" class="search-btn">Найти</button>
-        </form>
-        <div class="user-nav-wrapper">
-          <section class="login-menu">
-            <a href="#" class="login">Войти</a>
-          </section>
-          <section class="shopping">
-            <a href="#" class="compare">Сравнить</a>
-            <a href="#" class="basket">Корзина</a>
-          </section>
-        </div>
-      </div>
-    </div>
-    <nav class="main-nav">
-      <div class="main-nav-wrapper inner-wrapper">
-        <div class="dropdown-wrapper">
-          <a href="#" class="nav-item dropdown">Каталог товаров</a>
-        </div>
-        <div class="main-legal-wrapper">
-          <div class="legal-wrapper">
-            <a href="#" class="nav-item">Доставка</a>
-            <a href="#" class="nav-item">Гарантия</a>
-          </div>
-          <div class="contacts-wrapper">
-            <a href="#" class="nav-item">Контакты</a>
-          </div>
-        </div>
-      </div>
-      <ul class="dropdown-list">
-        <div class="inner-wrapper">
-          <div class="dropdown-list-wrapper">
-            <li class="dropdown-item"><a href="#">Виртуальная реальность</a></li>
-            <li class="dropdown-item"><a href="#">Фитнес-браслеты</a></li>
-            <li class="dropdown-item long-item-left"><a href="#">Квадрокоптеры</a></li>
-            <li class="dropdown-item"><a href="#">Моноподы для селфи</a></li>
-            <li class="dropdown-item long-item-right"><a href="#">Умные часы</a></li>
-            <li class="dropdown-item"><a href="#">Экшн камеры</a></li>
-          </div>
-        </div>
-      </ul>
-    </nav>
-  </header>
-<script src="js/script.js"></script>
+	<header class="main-header outer-wrapper">
+		<div class="inner-wrapper">
+			<a href="index.html" class="logo"></a>
+			<div class="user-menu-wrapper">
+				<form class="main-search">
+					<input type="search" placeholder="Поиск по сайту">
+					<button type="submit" class="search-btn">Найти</button>
+				</form>
+				<div class="user-nav-wrapper">
+					<section class="login-menu">
+						<a href="#" class="login">Войти</a>
+					</section>
+					<section class="shopping">
+						<a href="#" class="compare">Сравнить</a>
+						<a href="#" class="basket">Корзина</a>
+					</section>
+				</div>
+			</div>
+		</div>
+		<nav class="main-nav">
+			<div class="main-nav-wrapper inner-wrapper">
+				<div class="dropdown-wrapper">
+					<a href="#" class="nav-item dropdown">Каталог товаров</a>
+				</div>
+				<div class="main-legal-wrapper">
+					<div class="legal-wrapper">
+						<a href="#" class="nav-item">Доставка</a>
+						<a href="#" class="nav-item">Гарантия</a>
+					</div>
+					<div class="contacts-wrapper">
+						<a href="#" class="nav-item">Контакты</a>
+					</div>
+				</div>
+			</div>
+			<ul class="dropdown-list">
+				<div class="inner-wrapper">
+					<div class="dropdown-list-wrapper">
+						<li class="dropdown-item"><a href="#">Виртуальная реальность</a></li>
+						<li class="dropdown-item"><a href="#">Фитнес-браслеты</a></li>
+						<li class="dropdown-item long-item-left"><a href="#">Квадрокоптеры</a></li>
+						<li class="dropdown-item"><a href="#">Моноподы для селфи</a></li>
+						<li class="dropdown-item long-item-right"><a href="#">Умные часы</a></li>
+						<li class="dropdown-item"><a href="#">Экшн камеры</a></li>
+					</div>
+				</div>
+			</ul>
+		</nav>
+	</header>
+	<main class="main-page outer-wrapper">
+		<div class="slider-selfi-wrapper inner-wrapper">
+			<section class="slider-photo">
+			</section>
+			<section class="slider-info">
+				<h2 class="slider-headline">Делай селфи,<br> как Бен Стиллер!</h2>
+				<p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм. </p>
+				<a href="#" class="btn">Подробнее</a>
+				<table class="slider-table">
+					<tr>
+						<td>8,5 м</td>
+						<td>5 кг</td>
+						<td>Карбон</td>
+					</tr>
+					<tr>
+						<th>Длина палки</th>
+						<th>Вес палки</th>
+						<th>Материал</th>
+					</tr>
+				</table>
+			</section>
+		</div>
+	</main>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
