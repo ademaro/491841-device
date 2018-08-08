@@ -1,6 +1,6 @@
 * {
 	outline: 1px solid red;
-	
+
 }
 
 @font-face {
@@ -8,7 +8,7 @@
 	src: url("../fonts/gilroyextrabold.woff") format("woff");
 	src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
 	font-weight: 900;
-	
+
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 	src: url("../fonts/gilroylight.woff") format ("woff");
 	src: url("../fonts/gilroylight.woff2") format ("woff2");
 	font-weight: 300;
-	
+
 }
 
 @font-face {
@@ -24,7 +24,7 @@
 	src: url("../fonts/opensans.woff") format ("woff");
 	src: url("../fonts/opensans.woff2") format ("woff2");
 	font-weight: 500;
-	
+
 }
 
 @font-face {
@@ -32,7 +32,7 @@
 	src: url("../fonts/opensanslight.woff") format ("woff");
 	src: url("../fonts/opensanslight.woff2") format ("woff2");
 	font-weight: 300;
-	
+
 }
 
 body {
@@ -56,7 +56,14 @@ body {
 	background-color: #FBF0CA;
 }
 
-.header-wrapper {
+.main-header a:any-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+.inner-wrapper {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1044px;
@@ -67,11 +74,11 @@ body {
 	display: inline-block;
 	position: relative;
 	margin-top: -15px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 
 	height: 34px;
 	width: 163px;
-	
+
 }
 
 .logo::after {
@@ -86,30 +93,32 @@ body {
 	line-height: 48px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	
+
 }
 
 .user-menu-wrapper {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 38px;
+	margin-bottom: 27px;
 }
 
 .main-search {
 	padding-left: 41px;
 	position: relative;
+
+  border-bottom: 2px solid black;
 }
 
 .main-search::before {
 	content: "";
 	position: absolute;
-	
+
 	width: 16px;
 	height: 16px;
-	
-	left: 5px;
-	top: 7px;
-	
+
+	left: 4px;
+	top: 17px;
+
 	background-image: url(../img/search.svg);
 	background-repeat: no-repeat;
 }
@@ -118,13 +127,26 @@ body {
 	background-color: transparent;
 	border: none;
 	opacity: 0.3;
-	
+
 }
 
+.search-btn {
+  margin-bottom: -2px;
+  margin-left: 130px;
+
+  width: 85px;
+  height: 49px;
+
+  border: 2px solid black;
+  background-color: transparent;
+}
 .user-nav-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 475px;
+
+  align-items: center;
+
 }
 
 .login-menu {
@@ -134,9 +156,9 @@ body {
 .shopping {
 	display: flex;
 	justify-content: space-between;
-	
+
 	width: 199px;
-	
+
 }
 
 .login {
@@ -146,33 +168,33 @@ body {
 .login::before {
 	content: "";
 	position: absolute;
-	
+
 	left: -27px;
-	top: 1px;
-	
+	top: 2px;
+
 	width: 13px;
 	height: 12px;
-	
+
 	background-image: url(../img/user.svg);
 	background-repeat: no-repeat;
-	
+
 }
 
 .compare {
 	position: relative;
-	
+
 }
 
 .compare::before {
 	content: "";
 	position: absolute;
-	
+
 	left: -20px;
 	top: 10px;
-	
+
 	width: 10px;
 	height: 10px;
-	
+
 	background-image: url(../img/compare.svg);
 	background-repeat: no-repeat;
 }
@@ -184,27 +206,27 @@ body {
 .basket::before {
 	content: "";
 	position: absolute;
-	
+
 	top: 8px;
 	right: 73px;
-	
+
 	width: 12px;
 	height: 12px;
-	
+
 	background-image: url(../img/cart.svg);
 	background-repeat: no-repeat;
 }
 
-
 .main-nav-wrapper {
 	display: flex;
 	justify-content: space-between;
+  margin-bottom: 21px;
 }
 
 .main-legal-wrapper {
 	display: flex;
 	justify-content: space-between;
-	
+
 	width: 502px;
 }
 .nav-item {
@@ -213,29 +235,76 @@ body {
 	font-weight: 900px;
 	line-height: 24px;
 	letter-spacing: 3.5px;
-	
+
 	text-transform: uppercase;
+}
+
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown::after {
+  position: absolute;
+  content: '';
+
+  top: 3px;
+  left: 232px;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
 }
 
 .legal-wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 	width: 272px;
 }
 
 .dropdown-list {
-	
-	background-color: #F7E296;
-	
-	list-style: none;
+  margin-top: 29px;
+  padding-bottom: 22px;
 	padding-left: 0;
-	
+
+  font-family: "OpenSans", "Arial" sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 36px;
+
+  list-style: none;
+  background-color: #F7E296;
 }
 
 .dropdown-list-wrapper {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+
+  margin-left: 2px;
+
+  width: 551px;
+
 }
+
+.dropdown-item {
+  margin-bottom: 11px;
+  margin-top: -11px;
+
+}
+
+.long-item-right {
+  padding-left: 13px;
+  margin-right: -13px;
+  padding-right: 236px;
+}
+
+.long-item-left {
+  padding-left: 14px;
+}
+
+

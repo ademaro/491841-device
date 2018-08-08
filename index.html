@@ -2,58 +2,61 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Device</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Device</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header class="main-header">
-		<div class="header-wrapper">
-			<a href="index.html" class="logo"></a>
-			<div class="user-menu-wrapper">
-				<section class="main-search">
-					<input type="search" placeholder="Поиск по сайту">
-				</section>
-				<div class="user-nav-wrapper">
-					<section class="login-menu">
-						<a href="#" class="login">Войти</a>
-					</section>
-					<section class="shopping">
-						<a href="#" class="compare">Сравнить</a>
-						<a href="#" class="header-basket">Корзина</a>
-					</section>
-				</div>
-			</div>
-			<nav class="main-nav">
-			<div class="main-nav-wrapper">
-				<div class="dropdown-wrapper">
-					<a href="#" class="nav-item dropdown">Каталог товаров</a>
-				</div>
-				<div class="main-legal-wrapper">
-					<div class="legal-wrapper">
-						<a href="#" class="nav-item">Доставка</a>
-						<a href="#" class="nav-item">Гарантия</a>
-					</div>
-					<div class="contacts-wrapper">
-						<a href="#" class="nav-item">Контакты</a>
-					</div>
-				</div>
-				</div>
-				<ul class="dropdown-list">
-				<div class="dropdown-list-wrapper">
-					<li class="dropdown-item"><a href="#">Виртуальная реальность</a></li>
-					<li class="dropdown-item"><a href="#">Моноподы для селфи</a></li>
-					<li class="dropdown-item"><a href="#">Экшн камеры</a></li>
-					<li class="dropdown-item"><a href="#">Фитнес-браслеты</a></li>
-					<li class="dropdown-item"><a href="#">Умные часы</a></li>
-					<li class="dropdown-item"><a href="#">Квадрокоптеры</a></li>
-					</div>
-				</ul>
-			</nav>
-		</div>
-	</header>
+  <header class="main-header">
+    <div class="inner-wrapper">
+      <a href="index.html" class="logo"></a>
+      <div class="user-menu-wrapper">
+        <form class="main-search">
+          <input type="search" placeholder="Поиск по сайту">
+          <button type="submit" class="search-btn">Найти</button>
+        </form>
+        <div class="user-nav-wrapper">
+          <section class="login-menu">
+            <a href="#" class="login">Войти</a>
+          </section>
+          <section class="shopping">
+            <a href="#" class="compare">Сравнить</a>
+            <a href="#" class="basket">Корзина</a>
+          </section>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav-wrapper inner-wrapper">
+        <div class="dropdown-wrapper">
+          <a href="#" class="nav-item dropdown">Каталог товаров</a>
+        </div>
+        <div class="main-legal-wrapper">
+          <div class="legal-wrapper">
+            <a href="#" class="nav-item">Доставка</a>
+            <a href="#" class="nav-item">Гарантия</a>
+          </div>
+          <div class="contacts-wrapper">
+            <a href="#" class="nav-item">Контакты</a>
+          </div>
+        </div>
+      </div>
+      <ul class="dropdown-list">
+        <div class="inner-wrapper">
+          <div class="dropdown-list-wrapper">
+            <li class="dropdown-item"><a href="#">Виртуальная реальность</a></li>
+            <li class="dropdown-item"><a href="#">Фитнес-браслеты</a></li>
+            <li class="dropdown-item long-item-left"><a href="#">Квадрокоптеры</a></li>
+            <li class="dropdown-item"><a href="#">Моноподы для селфи</a></li>
+            <li class="dropdown-item long-item-right"><a href="#">Умные часы</a></li>
+            <li class="dropdown-item"><a href="#">Экшн камеры</a></li>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </header>
 
 </body>
 
