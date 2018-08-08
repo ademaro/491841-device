@@ -61,7 +61,13 @@ body {
   text-decoration: none;
 }
 
+.main-header a:hover {
+  opacity: 0.6;
+}
 
+.main-header a:active {
+  opacity: 0.3;
+}
 
 .inner-wrapper {
 	margin-left: auto;
@@ -107,6 +113,7 @@ body {
 	position: relative;
 
   border-bottom: 2px solid black;
+  color: rgba(0,0,0,0.3)
 }
 
 .main-search::before {
@@ -130,6 +137,14 @@ body {
 
 }
 
+.main-search input:hover {
+  opacity: 0.6;
+}
+
+.main-search input:focus {
+  opacity: 1;
+}
+
 .search-btn {
   margin-bottom: -2px;
   margin-left: 130px;
@@ -137,9 +152,22 @@ body {
   width: 85px;
   height: 49px;
 
+  cursor: pointer;
   border: 2px solid black;
   background-color: transparent;
 }
+
+.search-btn:hover {
+  background-color: #000000;
+  color: rgba(255,255,255,1);
+
+}
+
+.search-btn:active {
+  background-color: #000000;
+  color: rgba(255,255,255,0.3);
+}
+
 .user-nav-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -258,6 +286,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .legal-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -278,6 +307,8 @@ body {
 
   list-style: none;
   background-color: #F7E296;
+
+  display: none;
 }
 
 .dropdown-list-wrapper {
@@ -305,6 +336,14 @@ body {
 
 .long-item-left {
   padding-left: 14px;
+}
+
+.main-nav a.dropdown:hover + .main-nav ul {
+  display: block;
+}
+
+.dropdown-shower {
+  display: block;
 }
 
 
