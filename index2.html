@@ -14,7 +14,7 @@
       <section class="main-header__logo--header">
         <img class="main-header__logo-image" src="img/logo.svg">
       </section>
-      <section class="main-header__user-nav">
+      <nav class="main-header__user-nav">
         <div class="user-nav__search-wrapper">
           <input class="user-nav__search-input">
           <button class="user-nav__search-button"></button>
@@ -24,25 +24,25 @@
           <a class="menu-list__compare--header">Сравнить</a>
           <a class="menu-list__basket--header">Корзина</a>
         </div>
-      </section>
-      <section class="main-header__menu-nav">
+      </nav>
+      <nav class="main-header__menu-nav">
         <ul class="menu-nav__list-wrapper">
           <li class="menu-nav__item--dropdown"><a href="#">Каталог товаров</a></li>
           <ul class="menu-nav__dropdown-list">
-            <li class="menu-nav__dropdown-item"><a href="#">Виртуальная реальность</a></li>
-            <li class="menu-nav__dropdown-item"><a href="#">Моноподы для селфи</a></li>
-            <li class="menu-nav__dropdown-item"><a href="#">Экшн-камеры</a></li>
-            <li class="menu-nav__dropdown-item"><a href="#">Фитнес-браслеты</a></li>
-            <li class="menu-nav__dropdown-item"><a href="#">Умные часы</a></li>
-            <li class="menu-nav__dropdown-item"><a href="#">Квадрокоптеры</a></li>
+            <li class="dropdown-list_item"><a href="#">Виртуальная реальность</a></li>
+            <li class="dropdown-list_item"><a href="#">Моноподы для селфи</a></li>
+            <li class="dropdown-list_item"><a href="#">Экшн-камеры</a></li>
+            <li class="dropdown-list_item"><a href="#">Фитнес-браслеты</a></li>
+            <li class="dropdown-list_item"><a href="#">Умные часы</a></li>
+            <li class="dropdown-list_item"><a href="#">Квадрокоптеры</a></li>
           </ul>
           <div class="menu-nav__legal-list--header">
-            <li class="menu-nav__item--header"><a href="#">Доставка</a></li>
-            <li class="menu-nav__item--header"><a href="#">Гарантия</a></li>
-            <li class="menu-nav__item--header"><a href="#">Контакты</a></li>
+            <li class="legal-list__item--header"><a href="#">Доставка</a></li>
+            <li class="legal-list__item--header"><a href="#">Гарантия</a></li>
+            <li class="legal-list__item--header"><a href="#">Контакты</a></li>
           </div>
         </ul>
-      </section>
+      </nav>
     </div>
   </header>
   <main class="main-page">
@@ -156,11 +156,11 @@
           <p class="legal-slider__text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
       </div>
     </section>
-    <section class="main-partners">
-      <img src="" class="main-partners__item--dji" width="" height="" alt="">
-      <img src="" class="main-partners__item--sp" width="" height="" alt="">
-      <img src="" class="main-partners__item--GoPro" width="" height="" alt="">
-      <img src="" class="main-partners__item--Vive" width="" height="" alt="">
+    <section class="main-labels">
+      <img src="" class="labels__item--dji" width="" height="" alt="">
+      <img src="" class="labels__item--sp" width="" height="" alt="">
+      <img src="" class="labels__item--GoPro" width="" height="" alt="">
+      <img src="" class="labels__item--Vive" width="" height="" alt="">
     </section>
     <section class="main-us">
       <div class="main-us__wrapper">
@@ -176,10 +176,47 @@
           <a class="about-us__button">Подробнее о нас</a>
         </section>
         <section class="main-us__contacts">
+          <h2 class="main-us_headline">Контакты</h2>
+          <p class="main-use__text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+          <img class="main-us__contact-map" width="" height="" alt="">
+          <a class="about-us__button">Напишите нам</a>
         </section>
       </div>
     </section>
   </main>
+  <footer class="main-footer">
+    <header class="main-footer__header">
+      <section class="footer-header__logo">
+        <img class="footer-header__logo-pic" src="" width="" height="" alt="">
+      </section>
+      <nav class="footer-header__user-nav">
+        <div class="user-nav__menu-list--footer-wrapper">
+          <a class="menu-list__user--footer">Войти</a>
+          <a class="menu-list__compare--footer">Сравнить</a>
+          <a class="menu-list__basket--footer">Корзина</a>
+        </div>
+      </nav>
+    </header>
+    <section class="main-footer__main">
+      <address class="main-footer__address">г. Москва, ул. Строителей, 15</address>
+      <ul class="menu-nav__legal-list--footer">
+        <li class="legal-list__item--header"><a href="#">Доставка</a></li>
+        <li class="legal-list__item--header"><a href="#">Гарантия</a></li>
+        <li class="legal-list__item--header"><a href="#">Контакты</a></li>
+      </ul>
+      <a href="tel:+7(495)495-95-95" class="main-footer__tel">Тел.: +7 (495) 495-95-95</a>
+    </section>
+    <section class="main-footer__footer">
+      <div class="main-footer__social-wrapper">
+        <a href="" class="footer-social__item--fb"></a>
+        <a href="" class="footer-social__item--instagram"></a>
+        <a href="" class="footer-social__item--twitter"></a>
+      </div>
+      <div class="main-footer__academy-logo">
+        <a class="academy-logo__img"><img src="" width="" height="" alt=""></a>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
