@@ -49,6 +49,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1160px;
+	height: 300px;
 
 	background-color: #f7e296;
 }
@@ -105,11 +106,24 @@ body {
 	cursor: pointer;
 }
 
-.user-nav__menu-list--header {
+.user-nav__menu-list {
 	display: flex;
 	justify-content: space-between;
 	width: 500px;
 
+}
+
+.user-purchase__wrapper {
+	width: 220px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-nav__list-wrapper {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0px;
 }
 
 .menu-nav__item {
@@ -122,4 +136,17 @@ body {
 
 .menu-nav__dropdown-list {
 	display: none;
+
+}
+
+.menu-nav__legal-list {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.menu-nav__legal-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
 }
