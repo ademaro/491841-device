@@ -6,28 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="main-header">
     <div class="main-header__wrapper">
       <section class="main-header__logo--header">
-        <img class="main-header__logo-image" src="img/logo.svg">
+        <a href="index.html"><img class="main-header__logo-image" src="img/logo.svg"></a>
       </section>
       <nav class="main-header__user-nav">
         <div class="user-nav__search-wrapper">
-          <input class="user-nav__search-input">
-          <button class="user-nav__search-button"></button>
+          <input class="user-nav__search-input" placeholder="Поиск по сайту" type="search">
+          <button class="user-nav__search-button" type="submit">Найти</button>
         </div>
         <div class="user-nav__menu-list--header">
-          <a class="menu-list__user--header">Войти</a>
-          <a class="menu-list__compare--header">Сравнить</a>
-          <a class="menu-list__basket--header">Корзина</a>
+          <a href="#" class="menu-list__user--header">Войти</a>
+          <div class="user-purchase__wrapper">
+           <a href="#" class="menu-list__compare--header">Сравнить</a>
+           <a href="#" class="menu-list__basket--header">Корзина</a>
+        </div>
         </div>
       </nav>
       <nav class="main-header__menu-nav">
         <ul class="menu-nav__list-wrapper">
-          <li class="menu-nav__item--dropdown"><a href="#">Каталог товаров</a></li>
+          <li class="menu-nav__item menu-nav__item--dropdown"><a href="#">Каталог товаров</a></li>
           <ul class="menu-nav__dropdown-list">
             <li class="dropdown-list__item"><a href="#">Виртуальная реальность</a></li>
             <li class="dropdown-list__item"><a href="#">Моноподы для селфи</a></li>
@@ -36,10 +40,10 @@
             <li class="dropdown-list__item"><a href="#">Умные часы</a></li>
             <li class="dropdown-list__item"><a href="#">Квадрокоптеры</a></li>
           </ul>
-          <div class="menu-nav__legal-list--header">
-            <li class="legal-list__item--header"><a href="#">Доставка</a></li>
-            <li class="legal-list__item--header"><a href="#">Гарантия</a></li>
-            <li class="legal-list__item--header"><a href="#">Контакты</a></li>
+          <div class="menu-nav__legal-list">
+            <li class="menu-nav__item"><a href="#">Доставка</a></li>
+            <li class="menu-nav__item"><a href="#">Гарантия</a></li>
+            <li class="menu-nav__item"><a href="#">Контакты</a></li>
           </div>
         </ul>
       </nav>
