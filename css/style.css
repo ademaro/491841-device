@@ -79,10 +79,10 @@ body {
 }
 
 .user-nav__search-input {
+	height: 51px;
 	padding-right: 127px;
 	padding-left: 37px;
-	padding-top: 16px;
-	padding-bottom: 16px;
+
 	background-color: transparent;
 	border: none;
 }
@@ -110,6 +110,17 @@ body {
 	background-color: transparent;
 	border: 2px solid black;
 	cursor: pointer;
+	display: none;
+	border-bottom: none;
+	
+}
+
+.user-nav__search-input:focus + .user-nav__search-button {
+	display: inline;
+}
+
+.user-nav__search-input:focus {
+	border-bottom: 2px solid black;
 }
 
 .user-nav__menu-list {
