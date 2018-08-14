@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "Gilroy";
-	src: url("../fonts/gilroyextrabold.woff") format("woff"),
+	src: url("../fonts/gilroyextrabold.woff") format("woff");
 	src: url("../fonts/gilroyextrabold.woff2") format("woff2");
 	font-weight: 900;
 
@@ -13,7 +13,7 @@
 
 @font-face {
 	font-family: "Gilroy";
-	src: url("../fonts/gilroylight.woff") format ("woff"),
+	src: url("../fonts/gilroylight.woff") format ("woff");
 	src: url("../fonts/gilroylight.woff2") format ("woff2");
 	font-weight: 300;
 
@@ -21,7 +21,7 @@
 
 @font-face {
 	font-family: "OpenSans";
-	src: url("../fonts/opensans.woff") format ("woff"),
+	src: url("../fonts/opensans.woff") format ("woff");
 	src: url("../fonts/opensans.woff2") format ("woff2");
 	font-weight: 500;
 
@@ -29,11 +29,12 @@
 
 @font-face {
 	font-family: "OpenSans";
-	src: url("../fonts/opensanslight.woff") format ("woff"),
+	src: url("../fonts/opensanslight.woff") format ("woff");
 	src: url("../fonts/opensanslight.woff2") format ("woff2");
 	font-weight: 300;
-
+ 
 }
+
 
 body {
 	font-family: "OpenSans", "Arial", sans-serif;
@@ -208,10 +209,8 @@ body {
 	padding-bottom: 18px;
 
 	top: 29px;
-	
-	width: 1040px;
 
-	line-height: 36px;
+	width: 1040px;
 
 	background-color: #f7e296;
 	display: none;
@@ -222,6 +221,9 @@ body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 550px;
+
+	margin-top: -8px;
+	letter-spacing: 0.3px;
 }
 
 .menu-nav__legal-list {
@@ -236,8 +238,14 @@ body {
 	width: 270px;
 }
 
+.dropdown-list__item {
+	margin-bottom: 6px;
+}
+
 .dropdown-list__item--long {
+	display: inline-block;
 	padding-right: 225px;
+	margin-right: -9px; 
 }
 
 .menu-nav__item--dropdown {
@@ -274,24 +282,78 @@ body {
 	width: 1160px;
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 
 }
 
 .main-slider__selfi {
+	margin-top: -75px;
 	width: 1160px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.main-slider__pic {
+	margin-top: -37px;
+	margin-left: 23px;
+	width: 374px;
+
+
 }
 
 .main-slider__info {
-	width: 560px;
+	width: 495px;
 
 }
 
-.main-catalog__list-wrapper {
+.main-slider__headline{
+	font-family:"Gilroy", "Arial BLack" sans-serif;
+	font-size: 47px;
+	font-weight: 900;
+
+	line-height: 56px;
+}
+
+.main-slider__table-wrapper td {
+	font-family: "Gilroy", "Arial Black" sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+
+}
+
+.main-slider__table-wrapper th {
+	font-family: "OpenSans", "Arial" sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+
+}
+
+.main-catalog {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1160px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-catalog__list-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.main-catalog__item-pic {
+	width: 160px;
+	height: 160px;
+
+	background-color: #f8e297;
+}
+
+.main-catalog__item-headline {
+	font-family: "Gilroy", "Arial Black" sans-serif;
+	font-size: 18px;
+	font-weight: 900;
 
 }
