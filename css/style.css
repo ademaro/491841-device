@@ -292,6 +292,10 @@ body {
 
 }
 
+.main-page {
+	position: relative;
+}
+
 .main-slider__wrapper {
 	position: relative;
 	margin-top: -75px;
@@ -552,8 +556,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 
-	right: 423px;
-	top: 554px;
+	right: 596px;
+	top: 290px;
 
 	width: 78px;
 }
