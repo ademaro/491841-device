@@ -323,8 +323,8 @@ body {
 	position: absolute;
 	content: "01";
 
-	top: 289px;
-	right: 388px;
+	top: 24px;
+	right: 48px;
 
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 179.2px;
@@ -335,7 +335,7 @@ body {
 }
 
 .main-slider__selfi {
-
+	position: relative;
 	width: 1160px;
 	margin-right: auto;
 	margin-left: auto;
