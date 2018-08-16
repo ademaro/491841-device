@@ -399,6 +399,9 @@ body {
 	margin-right: auto;
 	width: 1160px;
 
+	margin-bottom: 159px;
+
+
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
@@ -557,6 +560,7 @@ body {
 
 .main-slider__input {
 	display: none;
+
 }
 
 .main-slider__label {
@@ -567,4 +571,44 @@ body {
 	border-radius: 60%;
 
 	cursor: pointer;
+
+}
+
+.main-legal-slider {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.legal-slider {
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 1160px;
+	
+}
+
+.legal-slider__menu {
+	width: 580px;
+}
+
+.legal-slider__controls {
+	position: absolute;
+}
+
+.legal-slider__content {
+	width: 1100px;
+}
+
+.legal-slider__text {
+
+}
+
+
+.legal-slider__headline {
+	font-family: "Gilroy", "Arial Black", sans-serif;
+	font-size:  47px;
+	font-weight: 900;
+
 }
