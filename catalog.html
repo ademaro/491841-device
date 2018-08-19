@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Девайс: Каталог</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <a href="index.html" class="logo">
+      <img class="logo__image" src="img/logo.svg" width="" height="" alt="Device">
+    </a>
+    <nav class="user-nav">
+      <form class="user-nav__search-form">
+        <input class="user-nav__search-input" placeholder="Поиск по сайту" type="search">
+        <button class="user-nav__search-button" type="submit">Найти</button>
+      </form>
+      <section class="user-nav__user-menu">
+        <a href="#" class="user-nav__user">Валентин Петухов</a>
+        <a href="#" class="user-nav__logout">Выйти</a>
+        <a href="#" class="user-nav__compare">Сравнить</a>
+        <a href="#" class="user-nav__basket">Корзина</a>
+      </section>
+    </nav>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item main-nav__item--dropdown">
+          <a href="catalog.html">Виртуальная реальность</a>
+          <ul class="dropdown-list">
+            <li class="dropdown-list__item">
+              <a href="#">Виртуальная реальность</a>
+            </li>
+            <li class="dropdown-list__item">
+              <a href="#">Фитнес-браслеты</a>
+            </li>
+            <li class="dropdown-list__item">
+              <a href="#">Квадрокоптеры</a>
+            </li>
+            <li class="dropdown-list__item">
+              <a href="#">Моноподы для селфи</a>
+            </li>
+            <li class="dropdown-list__item dropdown-list__item--long">
+              <a href="#">Умные часы</a>
+            </li>
+            <li class="dropdown-list__item">
+              <a href="#">Экшн-камеры</a>
+            </li>
+          </ul>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">Доставка</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">Гарантия</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="catalog">
+    <h2 class="catalog__page-title">Моноподы для селфи</h2>
+    <div class="breadcrumbs">
+      <a href="#" class="breadcrumbs__item">Главная</a>
+      <a href="#" class="breadcrumbs__item">Каталог товаров</a>
+      <a href="#" class="breadcrumbs__item breadcrumbs__item--current">Моноподы для селфи</a>
+    </div>
+    <form class="catalog__filter filter">
+      <h2 class="filter__title">Фильтр:</h2>
+      <section class="filter__cost-wrapper">
+        <h2 class="filter__subtitle">Стоимость</h2>
+        <div class="filter__range">
+          <div class="filter__range-min"></div>
+          <div class="filter__range-max"></div>
+        </div>
+      </section>
+      <section class="filter__color ">
+        <h2 class="filter__subtitle">Цвет</h2>
+        <input type="checkbox" class="filter__input" id="black" name="color-item" value="black" checked>
+        <input type="checkbox" class="filter__input" id="white" name="color-item" value="white">
+        <input type="checkbox" class="filter__input" id="blue" name="color-item" value="blue" checked>
+        <input type="checkbox" class="filter__input" id="red" name="color-item" value="red" checked>
+        <input type="checkbox" class="filter__input" id="pink" name="color-item" value="pink">
+        <label for="black" class="filter__label">Чёрный</label>
+        <label for="white" class="filter__label">Белый</label>
+        <label for="blue" class="filter__label">Синий</label>
+        <label for="red" class="filter__label">Красный</label>
+        <label for="pink" class="filter__label">Розовый</label>
+      </section>
+      <section class="filter__bluetooth">
+        <h2 class="filter__subtitle">Bluetooth</h2>
+        <input type="radio" class="filter__radio" id="yes" name="bluetooth-item" value="yes" checked>
+        <input type="radio" class="filter__radio" id="no" name="bluetooth-item" value="no">
+        <label for="yes" class="filter__label">Есть</label>
+        <label for="no" class="filter__label">Нет</label>
+      </section>
+      <button class="submit">Показать</button>
+    </form>
+    
+  </main>
+  
+</body>
+</html>
