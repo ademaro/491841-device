@@ -69,8 +69,8 @@ body {
 
 .logo--header {
 	display: inline-block;
-	margin-top: -19px;
-	margin-bottom: 2px;
+	margin-top: -30px;
+	margin-bottom: 5px;
 }
 
 .main-header__user-nav {
@@ -145,6 +145,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 
+	margin-bottom: 30px
+
 }
 
 .user-nav__user-menu {
@@ -184,6 +186,8 @@ body {
 .user-nav__basket::before {
 	display: inline-block;
 	content: "";
+
+	padding-left: 10px;
 
 	width: 12px;
 	height: 12px;
@@ -231,30 +235,75 @@ body {
 }
 
 .dropdown-list {
-	position: absolute;
-	list-style: none;
-	padding-top: 36px;
-	padding-left: 0px;
-	padding-bottom: 33px;
-	z-index: 1;
-
-	top: 29px;
-
-	width: 1040px;
-
-	background-color: #f7e296;
-	display: none;
-}
-
-.dropdown-list__wrapper {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 550px;
 
-	margin-top: -8px;
+	font-family: "OpenSans", "Arial", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	color: #000000;
+	text-transform: capitalize;
+
+	position: absolute;
+	list-style: none;
+
+	margin-top: -2px;
+	padding-top: 36px;
+	padding-left: 0px;
+	padding-right: 550px;
+	padding-bottom: 40px;
+	z-index: 1;
+
+	background-color: #f7e296;
+	display: none;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.nav__item--delivery {
+	margin-left: 286px;
+}
+
+.nav__item--warranty {
+	margin-right: 74px;
 
 }
+
+.nav__item--contacts {
+	margin-right: -4px;
+}
+
+
+.nav__item--dropdown a:hover + .dropdown-list {
+	display: flex;
+}
+
+.dropdown-list:hover {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-nav__legal-list {
 	display: flex;
