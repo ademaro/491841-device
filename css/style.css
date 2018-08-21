@@ -421,7 +421,101 @@ body {
 	text-align: start;
 }
 
+.categories {
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
 
+}
+
+.categories__link {
+	width: 160px;
+}
+
+.categories__wrapper {
+	width: 160px;
+	height: 160px;
+
+	background-color: #f7e296;
+}
+
+
+.categories__link--vr,
+.categories__link--selfi,
+.categories__link--camera,
+.categories__link--fit,
+.categories__link--watch,
+.categories__link--copter {
+	position: relative;
+}
+
+.categories__link--vr::after {
+	position: absolute;
+	content: "";
+	width: 97px;
+	height: 55px;
+	top: 51px;
+	right: 32px;
+	background-image: url("../img/vr-pic.svg");
+	background-repeat: no-repeat;
+}
+
+.categories__link--selfi::after {
+	position: absolute;
+	content: "";
+	width: 86px;
+	height: 117px;
+	right: 36px;
+	top: 40px;
+	background-image: url("../img/selfi-pic.svg");
+	background-repeat: no-repeat;
+}
+
+.categories__link--camera::after {
+	position: absolute;
+	content: "";
+	width: 71px;
+	height: 87px;
+	top: 37px;
+	right: 40px;
+	background-image: url("../img/camera-pic.svg");
+	background-repeat: no-repeat;
+}
+
+.categories__link--fit::after {
+	position: absolute;
+	content: "";
+	height: 65px;
+	width: 107px;
+	top: 49px;
+	right: 25px;
+	background-image: url("../img/fit-pic.svg");
+	background-repeat: no-repeat;
+}
+
+.categories__link--watch::after {
+	position: absolute;
+	content: "";
+	width: 56px;
+	height: 98px;
+	top: 31px;
+	right: 49px;
+	background-image: url("../img/watch-pic.svg");
+	background-repeat: no-repeat;
+}
+
+.categories__link--copter::after {
+	position: absolute;
+	content: "";
+	width: 132px;
+	height: 69px;
+	top: 48px;
+	right: 15px;
+	background-image: url("../img/copter-pic.svg");
+	background-repeat: no-repeat;
+}
 
 
 
