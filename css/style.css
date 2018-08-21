@@ -305,6 +305,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	width: 1160px;
+	margin-bottom: 106px;
 }
 
 .sliders__slider {
@@ -325,6 +326,28 @@ body {
 .sliders__info {
 	width: 495px;
 }
+
+.categories {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.categories__link {
+	width: 160px;
+}
+.categories__wrapper {
+	margin-bottom: 20px;
+	width: 160px;
+	height: 160px;
+
+
+	background-color: #f8e297;
+}
+
 
 
 
