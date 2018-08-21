@@ -345,15 +345,23 @@ body {
 .categories__link {
 	width: 160px;
 }
+
 .categories__wrapper {
 	margin-bottom: 20px;
 	width: 160px;
 	height: 160px;
 
-
 	background-color: #f8e297;
 }
 
+.categories__link:hover + .categories__wrapper {
+	background-color: #F0C52E;
+}
+
+.categories__link:active {
+	opacity: 0.3;
+	background-color: rgba(240,197,46,1);
+}
 .categories__link--vr,
 .categories__link--selfi,
 .categories__link--camera,
