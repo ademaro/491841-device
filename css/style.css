@@ -304,7 +304,7 @@ body {
 .sliders {
 	margin-right: auto;
 	margin-left: auto;
-	width: 1160px;
+	width: 1129px;
 	margin-bottom: 106px;
 }
 
@@ -316,8 +316,8 @@ body {
 	position: absolute;
 	content: "01";
 
-	top: -62px;
-	right: 49px;
+	top: -67px;
+	right: 33px;
 
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 179.2px;
@@ -367,12 +367,14 @@ body {
 
 .sliders__slider {
 	display: flex;
-	justify-content: space-around;
-	margin-top: -74px;
+	justify-content: flex-end;
+	margin-top: -68px;
 
 }
 
 .sliders__title {
+	margin-bottom: 19px;
+
 	font-family:"Gilroy", "Arial BLack", sans-serif;
 	font-size: 47px;
 	font-weight: 900;
@@ -381,9 +383,15 @@ body {
 	line-height: 56px;
 }
 
+.sliders__image--selfi {
+	margin-right: 124px;
+	margin-top: -40px;
+}
+
 .sliders__info {
 	position: relative;
-	width: 490px;
+	width: 510px;
+	margin-right: 36px;
 }
 
 .sliders__info::before {
@@ -393,22 +401,27 @@ body {
 	width: 100px;
 	height: 7px;
 
-	right: 388px;
+	top: -3px;
+	right: 409px;
 
 	background-color: white;
 	background-repeat: no-repeat;
 }
 
-.slider__text {
+.sliders__text {
+	margin-bottom: 55px;
 	line-height: 30px;
 	letter-spacing: 0.013em;
 }
 
 .sliders__spec {
+	margin-top: 64px;
 	width: 566px;
 }
 
 .sliders__spec td {
+	margin-bottom: 80px;
+
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 36px;
 	font-weight: 300;
