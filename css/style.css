@@ -196,35 +196,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.user-purchase__wrapper {
-	width: 213px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.menu-nav__list-wrapper {
-	padding-top: 10px;
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	padding-left: 0px;
-
-}
-
-.menu-list__basket::before {
-	display: inline-block;
-	content: "";
-
-	padding-right: 10px;
-
-	width: 12px;
-	height: 12px;
-
-	background-image: url("../img/cart.svg");
-	background-repeat: no-repeat;
-}
-
 .nav__item {
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 18px;
@@ -327,16 +298,12 @@ body {
 
 }
 
-.sliders__slider--watch {
-	position: relative;
-}
-
 .sliders__slider--watch::after {
 	position: absolute;
 	content: "02";
 
-	top: -62px;
-	right: 49px;
+	top: -67px;
+	right: 33px;
 
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 179.2px;
@@ -346,16 +313,12 @@ body {
 
 }
 
-.sliders__slider--copter {
-	position: relative;
-}
-
 .sliders__slider--copter::after {
 	position: absolute;
 	content: "03";
 
-	top: -62px;
-	right: 49px;
+	top: -67px;
+	right: 33px;
 
 	font-family: "Gilroy", "Arial Black", sans-serif;
 	font-size: 179.2px;
@@ -386,6 +349,16 @@ body {
 .sliders__image--selfi {
 	margin-right: 124px;
 	margin-top: -40px;
+}
+
+.sliders__image--watch {
+	margin-top: -40px;
+	margin-right: 140px;
+}
+
+.sliders__image--copter {
+	margin-top: -40px;
+	margin-right: 43px;
 }
 
 .sliders__info {
@@ -434,12 +407,47 @@ body {
 	text-align: start;
 }
 
+.sliders__controls {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 78px;
+
+	top: 555px;
+	right: 423px;
+}
+
+.sliders__button  { 
+	width: 11px;
+	height: 11px;
+
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 60%;
+	cursor: pointer;
+}
+
+.sliders__slider--watch {
+	position: relative;
+	display: none;
+}
+.sliders__slider--copter {
+	position: relative;
+	display: none;
+}
+
+
 .categories {
 	display: flex;
 	justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1160px;
+
+	font-family: "Gilroy", "Arial Black", sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	
 
 }
 
@@ -448,6 +456,8 @@ body {
 }
 
 .categories__wrapper {
+	margin-bottom: 35px;
+
 	width: 160px;
 	height: 160px;
 
@@ -859,6 +869,8 @@ body {
 
 	width: 78px;
 }
+
+.
 
 .main-slider__input {
 	display: none;
